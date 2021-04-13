@@ -1,0 +1,29 @@
+- name: "Game Tools"
+  description: "Gaming Software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - arcolinux-meta-steam
+    - dolphin-emu
+    - dosbox
+    - lutris
+    - mame
+    - openmw
+    - openra
+    - pcsx2
+    - playonlinux
+    - ppsspp
+    - retroarch
+- name: "Games"
+  description: "Will drastically increase install time !"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xonotic
+    - xonotic-data
+    - 0ad
+    - wesnoth

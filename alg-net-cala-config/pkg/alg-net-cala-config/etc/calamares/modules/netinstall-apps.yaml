@@ -1,0 +1,312 @@
+- name: "ArcoLinux Tools"
+  description: "Tools by ArcoLinux Team"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - arcolinux-conky-collection-plasma-git
+    - arcolinux-meta-fun
+    - arcolinux-meta-samba
+    - arcolinux-meta-utilities
+    - arcolinux-paleofetch-git
+    - arcolinux-reflector-simple-git
+    - arcolinux-teamviewer
+    - arcolinux-tweak-tool-git
+    - arcolinux-variety-git
+- name: "Audio"
+  description: "Audio Players & Editors"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - ardour
+    - audacious
+    - audacious-plugins
+    - audacity
+    - clementine
+    - deadbeef
+    - elisa
+    - juk
+    - kwave
+    - lmms
+    - ncmpcpp
+    - pragha
+    - radiotray
+    - rhythmbox
+    - soundconverter
+    - spotify
+    - tauon-music-box
+- name: "Accessories"
+  description: "Various Useful Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - galculator
+    - grub-customizer
+    - liferea
+    - mediainfo-gui
+    - mcomix
+    - nitrogen
+    - pdfarranger
+    - remmina
+    - solaar
+    - warpinator
+- name: "Browsers"
+  description: "Internet Browsers & E-mail"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - brave
+    - dropbox
+    - evolution
+    - filezilla
+    - firefox-adblock-plus
+    - firefox-i18n-$LOCALE
+    - googlemaps
+    - google-earth-pro
+    - insync
+    - mailspring
+    - nextcloud-client
+    - opera
+    - qutebrowser
+    - tor-browser
+    - thunderbird
+    - vivaldi
+    - vivaldi-ffmpeg-codecs
+- name: "Dev Tools"
+  description: "Editors for Devs"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - atom
+    - code
+    - geany
+    - meld
+    - guvcview
+    - sublime-text-dev
+    - visual-studio-code-bin
+- name: "Disk & USB"
+  description: "USB & HDD Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - brasero
+    - baobab
+    - etcher-bin
+    - gnome-disk-utility
+    - imagewriter
+    - ventoy-bin
+    - woeusb    
+- name: "Fonts"
+  description: "Fonts for Widgets"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-fira-code
+    - ttf-inconsolata
+    - ttf-liberation
+- name: "Git"
+  description: "Git Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - gitahead-bin
+    - gitg
+    - gitfiend
+    - gitkraken
+- name: "Graphics"
+  description: "Graphics"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - flameshot    
+    - gimp
+    - inkscape
+    - krita
+- name: "Kernel-based VM"
+  description: "Run kconfig on first boot"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bridge-utils
+    - dnsmasq
+    - ebtables
+    - openbsd-netcat
+    - ovmf
+    - qemu
+    - qemu-arch-extra
+    - vde2
+    - virt-manager    
+- name: "LibreOffice"
+  description: "LibreOffice Fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - libreoffice-fresh-fr
+    - hunspell-$LOCALE
+    - hunspell-fr
+- name: "Package Managers"
+  description: "Selection of Package Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - discover
+    - flatpak
+    - octopi
+    - snapd
+- name: "Password Manager"
+  description: "Password Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bitwarden-bin
+    - enpass-bin
+    - keepassxc
+    - lastpass  
+- name: "Social-Media"
+  description: "Chat Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - discord
+    - hexchat
+    - pidgin
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - telegram-desktop
+    - zoom
+- name: "Terminals"
+  description: "Various Terminals"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - konsole
+    - alacritty
+    - gnome-terminal
+    - guake
+    - kitty
+    - lxterminal
+    - sakura
+    - terminator
+    - tilix
+    - tilda
+    - tmux
+    - unimatrix-git
+- name: "Theming"
+  description: "Theming related Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - conky-lua-archers
+    - kvantum-qt5
+    - latte-dock
+    - xscreensaver
+- name: "Thunar Complete"
+  description: "Thunar File Manager"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
+    - thunar-shares-plugin
+- name: "Torrent Clients"
+  description: "Torrent Downloading"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - deluge
+    - ktorrent
+    - qbittorrent
+    - transmission-gtk
+- name: "Utilities"
+  description: "Various Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - caffeine-ng
+    - evince
+    - nvtop
+    - putty
+    - screenfetch
+    - sigil
+    - vtop
+    - wireshark-qt
+    - wttr    
+- name: "Video"
+  description: "Video Editors & More"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - celluloid
+    - guvcview
+    - handbrake
+    - hypnotix
+    - kdenlive
+    - kodi-x11
+    - kodi
+    - kodi-addons
+    - obs-studio
+    - openshot
+    - mkvtoolnix-gui
+    - plex-media-player
+    - plex-media-server
+    - simplescreenrecorder
+    - smplayer
+    - youtube-dl
+- name: "Wine"
+  description: "Adds Windows App Support to Linux"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - wine
+    - wine-gecko
+    - wine-mono
+    - winetricks
