@@ -108,7 +108,7 @@ calamares_job_removeuser_EXTERNAL_OBJECTS =
 src/modules/removeuser/libcalamares_job_removeuser.so: src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/calamares_job_removeuser_autogen/mocs_compilation.cpp.o
 src/modules/removeuser/libcalamares_job_removeuser.so: src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/RemoveUserJob.cpp.o
 src/modules/removeuser/libcalamares_job_removeuser.so: src/modules/removeuser/CMakeFiles/calamares_job_removeuser.dir/build.make
-src/modules/removeuser/libcalamares_job_removeuser.so: libcalamares.so.3.2.39.3-2.3
+src/modules/removeuser/libcalamares_job_removeuser.so: libcalamares.so.3.2.39.3-3.3
 src/modules/removeuser/libcalamares_job_removeuser.so: /usr/lib/libyaml-cpp.so
 src/modules/removeuser/libcalamares_job_removeuser.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/removeuser/libcalamares_job_removeuser.so: /usr/lib/libQt5Xml.so.5.15.2

@@ -124,7 +124,7 @@ src/modules/machineid/libcalamares_job_machineid.so: src/modules/machineid/CMake
 src/modules/machineid/libcalamares_job_machineid.so: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o
 src/modules/machineid/libcalamares_job_machineid.so: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o
 src/modules/machineid/libcalamares_job_machineid.so: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/build.make
-src/modules/machineid/libcalamares_job_machineid.so: libcalamares.so.3.2.39.3-2.3
+src/modules/machineid/libcalamares_job_machineid.so: libcalamares.so.3.2.39.3-3.3
 src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libyaml-cpp.so
 src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libQt5Xml.so.5.15.2

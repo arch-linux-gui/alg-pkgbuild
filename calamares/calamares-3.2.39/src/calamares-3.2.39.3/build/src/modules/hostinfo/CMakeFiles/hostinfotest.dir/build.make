@@ -124,7 +124,7 @@ hostinfotest: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/hostinfotest_auto
 hostinfotest: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/Tests.cpp.o
 hostinfotest: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/HostInfoJob.cpp.o
 hostinfotest: src/modules/hostinfo/CMakeFiles/hostinfotest.dir/build.make
-hostinfotest: libcalamares.so.3.2.39.3-2.3
+hostinfotest: libcalamares.so.3.2.39.3-3.3
 hostinfotest: /usr/lib/libyaml-cpp.so
 hostinfotest: /usr/lib/libQt5Test.so.5.15.2
 hostinfotest: /usr/lib/libQt5Network.so.5.15.2

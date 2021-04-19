@@ -198,8 +198,8 @@ src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: src/modules/keyboard
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: src/modules/keyboardq/CMakeFiles/calamares_viewmodule_keyboardq.dir/__/keyboard/keyboardwidget/keyboardglobal.cpp.o
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: src/modules/keyboardq/CMakeFiles/calamares_viewmodule_keyboardq.dir/calamares_viewmodule_keyboardq_autogen/EWIEGA46WW/qrc_keyboardq.cpp.o
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: src/modules/keyboardq/CMakeFiles/calamares_viewmodule_keyboardq.dir/build.make
-src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: libcalamaresui.so.3.2.39.3-2.3
-src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: libcalamares.so.3.2.39.3-2.3
+src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: libcalamaresui.so.3.2.39.3-3.3
+src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: libcalamares.so.3.2.39.3-3.3
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: /usr/lib/libKF5CoreAddons.so.5.80.0
 src/modules/keyboardq/libcalamares_viewmodule_keyboardq.so: /usr/lib/libyaml-cpp.so

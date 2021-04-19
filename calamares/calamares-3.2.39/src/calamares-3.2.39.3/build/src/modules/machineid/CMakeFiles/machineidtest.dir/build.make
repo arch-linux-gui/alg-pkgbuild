@@ -140,7 +140,7 @@ machineidtest: src/modules/machineid/CMakeFiles/machineidtest.dir/Tests.cpp.o
 machineidtest: src/modules/machineid/CMakeFiles/machineidtest.dir/MachineIdJob.cpp.o
 machineidtest: src/modules/machineid/CMakeFiles/machineidtest.dir/Workers.cpp.o
 machineidtest: src/modules/machineid/CMakeFiles/machineidtest.dir/build.make
-machineidtest: libcalamares.so.3.2.39.3-2.3
+machineidtest: libcalamares.so.3.2.39.3-3.3
 machineidtest: /usr/lib/libQt5Test.so.5.15.2
 machineidtest: /usr/lib/libyaml-cpp.so
 machineidtest: /usr/lib/libQt5Network.so.5.15.2

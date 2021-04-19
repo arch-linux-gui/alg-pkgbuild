@@ -67,7 +67,7 @@ include CMakeFiles/show-version.dir/compiler_depend.make
 include CMakeFiles/show-version.dir/progress.make
 
 CMakeFiles/show-version:
-	/usr/bin/cmake -E echo CALAMARES_VERSION=3.2.39.3-2.3
+	/usr/bin/cmake -E echo CALAMARES_VERSION=3.2.39.3-3.3
 
 show-version: CMakeFiles/show-version
 show-version: CMakeFiles/show-version.dir/build.make

@@ -108,7 +108,7 @@ calamares_job_hostinfo_EXTERNAL_OBJECTS =
 src/modules/hostinfo/libcalamares_job_hostinfo.so: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o
 src/modules/hostinfo/libcalamares_job_hostinfo.so: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o
 src/modules/hostinfo/libcalamares_job_hostinfo.so: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/build.make
-src/modules/hostinfo/libcalamares_job_hostinfo.so: libcalamares.so.3.2.39.3-2.3
+src/modules/hostinfo/libcalamares_job_hostinfo.so: libcalamares.so.3.2.39.3-3.3
 src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libyaml-cpp.so
 src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libQt5Xml.so.5.15.2

@@ -108,7 +108,7 @@ libcalamarespartitiontest_EXTERNAL_OBJECTS =
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/libcalamarespartitiontest_autogen/mocs_compilation.cpp.o
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/partition/Tests.cpp.o
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/build.make
-libcalamarespartitiontest: libcalamares.so.3.2.39.3-2.3
+libcalamarespartitiontest: libcalamares.so.3.2.39.3-3.3
 libcalamarespartitiontest: /usr/lib/libQt5Test.so.5.15.2
 libcalamarespartitiontest: /usr/lib/libyaml-cpp.so
 libcalamarespartitiontest: /usr/lib/libQt5Network.so.5.15.2

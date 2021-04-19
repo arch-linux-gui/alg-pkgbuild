@@ -108,7 +108,7 @@ test_geoip_EXTERNAL_OBJECTS =
 test_geoip: src/libcalamares/CMakeFiles/test_geoip.dir/test_geoip_autogen/mocs_compilation.cpp.o
 test_geoip: src/libcalamares/CMakeFiles/test_geoip.dir/geoip/test_geoip.cpp.o
 test_geoip: src/libcalamares/CMakeFiles/test_geoip.dir/build.make
-test_geoip: libcalamares.so.3.2.39.3-2.3
+test_geoip: libcalamares.so.3.2.39.3-3.3
 test_geoip: /usr/lib/libQt5Network.so.5.15.2
 test_geoip: /usr/lib/libyaml-cpp.so
 test_geoip: /usr/lib/libQt5Xml.so.5.15.2

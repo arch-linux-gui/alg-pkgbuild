@@ -108,7 +108,7 @@ libcalamaresutilspathstest_EXTERNAL_OBJECTS =
 libcalamaresutilspathstest: src/libcalamares/CMakeFiles/libcalamaresutilspathstest.dir/libcalamaresutilspathstest_autogen/mocs_compilation.cpp.o
 libcalamaresutilspathstest: src/libcalamares/CMakeFiles/libcalamaresutilspathstest.dir/utils/TestPaths.cpp.o
 libcalamaresutilspathstest: src/libcalamares/CMakeFiles/libcalamaresutilspathstest.dir/build.make
-libcalamaresutilspathstest: libcalamares.so.3.2.39.3-2.3
+libcalamaresutilspathstest: libcalamares.so.3.2.39.3-3.3
 libcalamaresutilspathstest: /usr/lib/libQt5Test.so.5.15.2
 libcalamaresutilspathstest: /usr/lib/libyaml-cpp.so
 libcalamaresutilspathstest: /usr/lib/libQt5Network.so.5.15.2

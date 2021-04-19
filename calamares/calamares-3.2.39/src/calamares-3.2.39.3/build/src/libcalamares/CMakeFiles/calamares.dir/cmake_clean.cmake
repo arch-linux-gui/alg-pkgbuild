@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../../libcalamares.pdb"
   "../../libcalamares.so"
-  "../../libcalamares.so.3.2.39.3-2.3"
+  "../../libcalamares.so.3.2.39.3-3.3"
   "CMakeFiles/calamares_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/calamares_autogen.dir/ParseCache.txt"
   "calamares_autogen"

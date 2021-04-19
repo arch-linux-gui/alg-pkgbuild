@@ -108,7 +108,7 @@ libcalamarespartitionkpmtest_EXTERNAL_OBJECTS =
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/build.make
-libcalamarespartitionkpmtest: libcalamares.so.3.2.39.3-2.3
+libcalamarespartitionkpmtest: libcalamares.so.3.2.39.3-3.3
 libcalamarespartitionkpmtest: /usr/lib/libpython3.9.so
 libcalamarespartitionkpmtest: /usr/lib/libboost_python3.so
 libcalamarespartitionkpmtest: /usr/lib/libkpmcore.so.20.12.3

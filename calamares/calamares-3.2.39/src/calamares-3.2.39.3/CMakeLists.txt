@@ -503,7 +503,7 @@ add_feature_info( ExampleDistro ${mksquashfs_FOUND} "Create example-distro targe
 
 ### CALAMARES PROPER
 #
-set( CALAMARES_VERSION 3.2.39.3-2 )
+set( CALAMARES_VERSION 3.2.39.3-3 )
 # In rare cases we have hotfix-releases with a tweak
 if( CALAMARES_VERSION_TWEAK )
     set( CALAMARES_VERSION "${CALAMARES_VERSION}.${CALAMARES_VERSION_TWEAK}" )

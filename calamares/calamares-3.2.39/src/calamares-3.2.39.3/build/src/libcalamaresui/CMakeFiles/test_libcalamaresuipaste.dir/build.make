@@ -124,9 +124,9 @@ test_libcalamaresuipaste: src/libcalamaresui/CMakeFiles/test_libcalamaresuipaste
 test_libcalamaresuipaste: src/libcalamaresui/CMakeFiles/test_libcalamaresuipaste.dir/utils/TestPaste.cpp.o
 test_libcalamaresuipaste: src/libcalamaresui/CMakeFiles/test_libcalamaresuipaste.dir/utils/Paste.cpp.o
 test_libcalamaresuipaste: src/libcalamaresui/CMakeFiles/test_libcalamaresuipaste.dir/build.make
-test_libcalamaresuipaste: libcalamaresui.so.3.2.39.3-2.3
+test_libcalamaresuipaste: libcalamaresui.so.3.2.39.3-3.3
 test_libcalamaresuipaste: /usr/lib/libQt5Test.so.5.15.2
-test_libcalamaresuipaste: libcalamares.so.3.2.39.3-2.3
+test_libcalamaresuipaste: libcalamares.so.3.2.39.3-3.3
 test_libcalamaresuipaste: /usr/lib/libQt5Xml.so.5.15.2
 test_libcalamaresuipaste: /usr/lib/libKF5CoreAddons.so.5.80.0
 test_libcalamaresuipaste: /usr/lib/libyaml-cpp.so

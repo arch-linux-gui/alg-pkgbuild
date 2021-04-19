@@ -131,8 +131,8 @@ src/modules/notesqml/libcalamares_viewmodule_notesqml.so: src/modules/notesqml/C
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.o
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make
-src/modules/notesqml/libcalamares_viewmodule_notesqml.so: libcalamaresui.so.3.2.39.3-2.3
-src/modules/notesqml/libcalamares_viewmodule_notesqml.so: libcalamares.so.3.2.39.3-2.3
+src/modules/notesqml/libcalamares_viewmodule_notesqml.so: libcalamaresui.so.3.2.39.3-3.3
+src/modules/notesqml/libcalamares_viewmodule_notesqml.so: libcalamares.so.3.2.39.3-3.3
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: /usr/lib/libKF5CoreAddons.so.5.80.0
 src/modules/notesqml/libcalamares_viewmodule_notesqml.so: /usr/lib/libyaml-cpp.so

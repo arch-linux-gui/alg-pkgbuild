@@ -188,9 +188,9 @@ src/modules/netinstall/libcalamares_viewmodule_netinstall.so: src/modules/netins
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.o
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.o
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make
-src/modules/netinstall/libcalamares_viewmodule_netinstall.so: libcalamaresui.so.3.2.39.3-2.3
+src/modules/netinstall/libcalamares_viewmodule_netinstall.so: libcalamaresui.so.3.2.39.3-3.3
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: /usr/lib/libyaml-cpp.so
-src/modules/netinstall/libcalamares_viewmodule_netinstall.so: libcalamares.so.3.2.39.3-2.3
+src/modules/netinstall/libcalamares_viewmodule_netinstall.so: libcalamares.so.3.2.39.3-3.3
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: /usr/lib/libKF5CoreAddons.so.5.80.0
 src/modules/netinstall/libcalamares_viewmodule_netinstall.so: /usr/lib/libyaml-cpp.so

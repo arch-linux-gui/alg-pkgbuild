@@ -108,7 +108,7 @@ libcalamaresutilstest_EXTERNAL_OBJECTS =
 libcalamaresutilstest: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o
 libcalamaresutilstest: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o
 libcalamaresutilstest: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/build.make
-libcalamaresutilstest: libcalamares.so.3.2.39.3-2.3
+libcalamaresutilstest: libcalamares.so.3.2.39.3-3.3
 libcalamaresutilstest: /usr/lib/libQt5Test.so.5.15.2
 libcalamaresutilstest: /usr/lib/libyaml-cpp.so
 libcalamaresutilstest: /usr/lib/libQt5Network.so.5.15.2

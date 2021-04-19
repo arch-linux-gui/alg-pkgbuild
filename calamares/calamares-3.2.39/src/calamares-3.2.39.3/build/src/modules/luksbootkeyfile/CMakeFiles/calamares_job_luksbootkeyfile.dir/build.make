@@ -108,7 +108,7 @@ calamares_job_luksbootkeyfile_EXTERNAL_OBJECTS =
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: src/modules/luksbootkeyfile/CMakeFiles/calamares_job_luksbootkeyfile.dir/calamares_job_luksbootkeyfile_autogen/mocs_compilation.cpp.o
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: src/modules/luksbootkeyfile/CMakeFiles/calamares_job_luksbootkeyfile.dir/LuksBootKeyFileJob.cpp.o
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: src/modules/luksbootkeyfile/CMakeFiles/calamares_job_luksbootkeyfile.dir/build.make
-src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: libcalamares.so.3.2.39.3-2.3
+src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: libcalamares.so.3.2.39.3-3.3
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: /usr/lib/libyaml-cpp.so
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so: /usr/lib/libQt5Xml.so.5.15.2

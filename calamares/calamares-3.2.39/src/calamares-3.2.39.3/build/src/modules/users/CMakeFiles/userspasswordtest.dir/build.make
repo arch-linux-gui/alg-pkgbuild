@@ -124,7 +124,7 @@ userspasswordtest: src/modules/users/CMakeFiles/userspasswordtest.dir/userspassw
 userspasswordtest: src/modules/users/CMakeFiles/userspasswordtest.dir/TestPasswordJob.cpp.o
 userspasswordtest: src/modules/users/CMakeFiles/userspasswordtest.dir/SetPasswordJob.cpp.o
 userspasswordtest: src/modules/users/CMakeFiles/userspasswordtest.dir/build.make
-userspasswordtest: libcalamares.so.3.2.39.3-2.3
+userspasswordtest: libcalamares.so.3.2.39.3-3.3
 userspasswordtest: /usr/lib/libcrypt.so
 userspasswordtest: /usr/lib/libQt5Test.so.5.15.2
 userspasswordtest: /usr/lib/libyaml-cpp.so
