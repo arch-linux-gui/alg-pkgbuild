@@ -229,8 +229,8 @@ src/modules/keyboard/libcalamares_viewmodule_keyboard.so: src/modules/keyboard/C
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget/keyboardpreview.cpp.o
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/calamares_viewmodule_keyboard_autogen/EWIEGA46WW/qrc_keyboard.cpp.o
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/build.make
-src/modules/keyboard/libcalamares_viewmodule_keyboard.so: libcalamaresui.so.3.2.39.3-4.3
-src/modules/keyboard/libcalamares_viewmodule_keyboard.so: libcalamares.so.3.2.39.3-4.3
+src/modules/keyboard/libcalamares_viewmodule_keyboard.so: libcalamaresui.so.3.2.39.3-5.3
+src/modules/keyboard/libcalamares_viewmodule_keyboard.so: libcalamares.so.3.2.39.3-5.3
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/keyboard/libcalamares_viewmodule_keyboard.so: /usr/lib/libyaml-cpp.so

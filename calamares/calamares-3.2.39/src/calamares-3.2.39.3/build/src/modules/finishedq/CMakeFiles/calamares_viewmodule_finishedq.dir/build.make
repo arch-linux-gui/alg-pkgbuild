@@ -148,8 +148,8 @@ src/modules/finishedq/libcalamares_viewmodule_finishedq.so: src/modules/finished
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make
-src/modules/finishedq/libcalamares_viewmodule_finishedq.so: libcalamaresui.so.3.2.39.3-4.3
-src/modules/finishedq/libcalamares_viewmodule_finishedq.so: libcalamares.so.3.2.39.3-4.3
+src/modules/finishedq/libcalamares_viewmodule_finishedq.so: libcalamaresui.so.3.2.39.3-5.3
+src/modules/finishedq/libcalamares_viewmodule_finishedq.so: libcalamares.so.3.2.39.3-5.3
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libQt5DBus.so.5.15.2
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libKF5CoreAddons.so.5.81.0

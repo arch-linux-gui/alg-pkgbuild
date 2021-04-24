@@ -108,8 +108,8 @@ calamares_job_fsresizer_EXTERNAL_OBJECTS =
 src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMakeFiles/calamares_job_fsresizer.dir/calamares_job_fsresizer_autogen/mocs_compilation.cpp.o
 src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMakeFiles/calamares_job_fsresizer.dir/ResizeFSJob.cpp.o
 src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMakeFiles/calamares_job_fsresizer.dir/build.make
-src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libkpmcore.so.20.12.3
-src/modules/fsresizer/libcalamares_job_fsresizer.so: libcalamares.so.3.2.39.3-4.3
+src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libkpmcore.so.21.04.0
+src/modules/fsresizer/libcalamares_job_fsresizer.so: libcalamares.so.3.2.39.3-5.3
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libyaml-cpp.so
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Xml.so.5.15.2

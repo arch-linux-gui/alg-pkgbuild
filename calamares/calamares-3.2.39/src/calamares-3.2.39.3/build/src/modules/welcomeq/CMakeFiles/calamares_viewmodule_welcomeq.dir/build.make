@@ -186,9 +186,9 @@ src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: src/modules/welcomeq/C
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.o
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make
-src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: libcalamaresui.so.3.2.39.3-4.3
+src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: libcalamaresui.so.3.2.39.3-5.3
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: /usr/lib/libparted.so
-src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: libcalamares.so.3.2.39.3-4.3
+src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: libcalamares.so.3.2.39.3-5.3
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: /usr/lib/libQt5DBus.so.5.15.2
 src/modules/welcomeq/libcalamares_viewmodule_welcomeq.so: /usr/lib/libKF5CoreAddons.so.5.81.0

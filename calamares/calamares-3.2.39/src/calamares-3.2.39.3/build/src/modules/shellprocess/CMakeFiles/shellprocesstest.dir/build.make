@@ -108,7 +108,7 @@ shellprocesstest_EXTERNAL_OBJECTS =
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/shellprocesstest_autogen/mocs_compilation.cpp.o
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/Tests.cpp.o
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/build.make
-shellprocesstest: libcalamares.so.3.2.39.3-4.3
+shellprocesstest: libcalamares.so.3.2.39.3-5.3
 shellprocesstest: /usr/lib/libyaml-cpp.so
 shellprocesstest: /usr/lib/libQt5Test.so.5.15.2
 shellprocesstest: /usr/lib/libQt5Network.so.5.15.2

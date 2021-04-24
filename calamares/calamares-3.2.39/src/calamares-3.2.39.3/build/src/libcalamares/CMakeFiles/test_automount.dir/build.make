@@ -92,7 +92,7 @@ test_automount_EXTERNAL_OBJECTS =
 
 test_automount: src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o
 test_automount: src/libcalamares/CMakeFiles/test_automount.dir/build.make
-test_automount: libcalamares.so.3.2.39.3-4.3
+test_automount: libcalamares.so.3.2.39.3-5.3
 test_automount: /usr/lib/libyaml-cpp.so
 test_automount: /usr/lib/libQt5Network.so.5.15.2
 test_automount: /usr/lib/libQt5Xml.so.5.15.2

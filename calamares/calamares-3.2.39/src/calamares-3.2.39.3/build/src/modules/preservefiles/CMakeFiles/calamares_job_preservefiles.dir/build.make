@@ -108,7 +108,7 @@ calamares_job_preservefiles_EXTERNAL_OBJECTS =
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make
-src/modules/preservefiles/libcalamares_job_preservefiles.so: libcalamares.so.3.2.39.3-4.3
+src/modules/preservefiles/libcalamares_job_preservefiles.so: libcalamares.so.3.2.39.3-5.3
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libyaml-cpp.so
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Xml.so.5.15.2

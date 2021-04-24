@@ -220,8 +220,8 @@ partitionjobtests: src/modules/partition/tests/CMakeFiles/partitionjobtests.dir/
 partitionjobtests: src/modules/partition/tests/CMakeFiles/partitionjobtests.dir/__/jobs/PartitionJob.cpp.o
 partitionjobtests: src/modules/partition/tests/CMakeFiles/partitionjobtests.dir/__/jobs/ResizePartitionJob.cpp.o
 partitionjobtests: src/modules/partition/tests/CMakeFiles/partitionjobtests.dir/build.make
-partitionjobtests: libcalamares.so.3.2.39.3-4.3
-partitionjobtests: /usr/lib/libkpmcore.so.20.12.3
+partitionjobtests: libcalamares.so.3.2.39.3-5.3
+partitionjobtests: /usr/lib/libkpmcore.so.21.04.0
 partitionjobtests: /usr/lib/libQt5Test.so.5.15.2
 partitionjobtests: /usr/lib/libyaml-cpp.so
 partitionjobtests: /usr/lib/libQt5Network.so.5.15.2

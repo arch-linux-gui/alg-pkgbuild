@@ -124,7 +124,7 @@ automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/automo
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/__/jobs/AutoMountManagementJob.cpp.o
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/AutoMountTests.cpp.o
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/build.make
-automounttests: libcalamares.so.3.2.39.3-4.3
+automounttests: libcalamares.so.3.2.39.3-5.3
 automounttests: /usr/lib/libQt5Test.so.5.15.2
 automounttests: /usr/lib/libyaml-cpp.so
 automounttests: /usr/lib/libQt5Network.so.5.15.2

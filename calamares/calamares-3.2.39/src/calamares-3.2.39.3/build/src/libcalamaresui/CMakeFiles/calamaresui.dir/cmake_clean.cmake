@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../../libcalamaresui.pdb"
   "../../libcalamaresui.so"
-  "../../libcalamaresui.so.3.2.39.3-4.3"
+  "../../libcalamaresui.so.3.2.39.3-5.3"
   "CMakeFiles/calamaresui_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/calamaresui_autogen.dir/ParseCache.txt"
   "calamaresui_autogen"

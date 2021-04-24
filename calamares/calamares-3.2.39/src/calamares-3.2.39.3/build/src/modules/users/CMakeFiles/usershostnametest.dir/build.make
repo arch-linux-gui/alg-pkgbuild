@@ -124,7 +124,7 @@ usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/usershostn
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/TestSetHostNameJob.cpp.o
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/SetHostNameJob.cpp.o
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/build.make
-usershostnametest: libcalamares.so.3.2.39.3-4.3
+usershostnametest: libcalamares.so.3.2.39.3-5.3
 usershostnametest: /usr/lib/libQt5Test.so.5.15.2
 usershostnametest: /usr/lib/libyaml-cpp.so
 usershostnametest: /usr/lib/libQt5Network.so.5.15.2

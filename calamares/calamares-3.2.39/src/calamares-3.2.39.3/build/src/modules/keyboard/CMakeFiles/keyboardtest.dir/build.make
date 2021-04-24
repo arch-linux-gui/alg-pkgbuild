@@ -149,7 +149,7 @@ keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/build.make
-keyboardtest: libcalamares.so.3.2.39.3-4.3
+keyboardtest: libcalamares.so.3.2.39.3-5.3
 keyboardtest: /usr/lib/libQt5Test.so.5.15.2
 keyboardtest: /usr/lib/libyaml-cpp.so
 keyboardtest: /usr/lib/libQt5Network.so.5.15.2
