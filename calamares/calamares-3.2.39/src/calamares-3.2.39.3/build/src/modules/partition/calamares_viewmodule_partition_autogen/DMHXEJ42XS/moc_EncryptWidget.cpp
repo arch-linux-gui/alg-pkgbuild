@@ -68,7 +68,7 @@ void EncryptWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<EncryptWidget *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->stateChanged((*reinterpret_cast< Encryption(*)>(_a[1]))); break;
         default: ;

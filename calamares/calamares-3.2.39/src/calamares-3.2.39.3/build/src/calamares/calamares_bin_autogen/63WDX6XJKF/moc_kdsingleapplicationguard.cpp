@@ -132,7 +132,7 @@ void KDSingleApplicationGuard::qt_static_metacall(QObject *_o, QMetaObject::Call
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<KDSingleApplicationGuard *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->instanceStarted((*reinterpret_cast< const KDSingleApplicationGuard::Instance(*)>(_a[1]))); break;
         case 1: _t->instanceExited((*reinterpret_cast< const KDSingleApplicationGuard::Instance(*)>(_a[1]))); break;
@@ -218,7 +218,7 @@ void KDSingleApplicationGuard::qt_static_metacall(QObject *_o, QMetaObject::Call
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<KDSingleApplicationGuard *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< bool*>(_v) = _t->isOperational(); break;
@@ -229,7 +229,7 @@ void KDSingleApplicationGuard::qt_static_metacall(QObject *_o, QMetaObject::Call
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<KDSingleApplicationGuard *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 3: _t->setPolicy(*reinterpret_cast< Policy*>(_v)); break;

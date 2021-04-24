@@ -67,7 +67,7 @@ void Calamares::DebugWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<DebugWindow *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->closed(); break;
         default: ;
@@ -82,7 +82,7 @@ void Calamares::DebugWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _
             }
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject Calamares::DebugWindow::staticMetaObject = { {
@@ -202,7 +202,7 @@ void Calamares::DebugWindowManager::qt_static_metacall(QObject *_o, QMetaObject:
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<DebugWindowManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->visibleChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: { bool _r = _t->enabled();
@@ -226,7 +226,7 @@ void Calamares::DebugWindowManager::qt_static_metacall(QObject *_o, QMetaObject:
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<DebugWindowManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< bool*>(_v) = _t->enabled(); break;
@@ -235,7 +235,7 @@ void Calamares::DebugWindowManager::qt_static_metacall(QObject *_o, QMetaObject:
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<DebugWindowManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 1: _t->show(*reinterpret_cast< bool*>(_v)); break;

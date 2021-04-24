@@ -78,7 +78,7 @@ void TimeZoneWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<TimeZoneWidget *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->locationChanged((*reinterpret_cast< const TimeZoneData*(*)>(_a[1]))); break;
         case 1: _t->setCurrentLocation((*reinterpret_cast< const TimeZoneData*(*)>(_a[1]))); break;

@@ -68,13 +68,13 @@ void NetInstallViewStep::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<NetInstallViewStep *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->nextIsReady(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject NetInstallViewStep::staticMetaObject = { {
@@ -152,10 +152,10 @@ static const uint qt_meta_data_NetInstallViewStepFactory[] = {
 
 void NetInstallViewStepFactory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject NetInstallViewStepFactory::staticMetaObject = { {

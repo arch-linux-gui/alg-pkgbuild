@@ -75,7 +75,7 @@ void ReplaceWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ReplaceWidget *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->nextStatusChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->onPartitionSelected(); break;

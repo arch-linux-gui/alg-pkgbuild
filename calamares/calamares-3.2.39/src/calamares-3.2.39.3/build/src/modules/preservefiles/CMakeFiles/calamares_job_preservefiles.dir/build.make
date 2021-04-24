@@ -108,11 +108,11 @@ calamares_job_preservefiles_EXTERNAL_OBJECTS =
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o
 src/modules/preservefiles/libcalamares_job_preservefiles.so: src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make
-src/modules/preservefiles/libcalamares_job_preservefiles.so: libcalamares.so.3.2.39.3-3.3
+src/modules/preservefiles/libcalamares_job_preservefiles.so: libcalamares.so.3.2.39.3-4.3
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libyaml-cpp.so
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Widgets.so.5.15.2
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Gui.so.5.15.2
 src/modules/preservefiles/libcalamares_job_preservefiles.so: /usr/lib/libQt5Core.so.5.15.2

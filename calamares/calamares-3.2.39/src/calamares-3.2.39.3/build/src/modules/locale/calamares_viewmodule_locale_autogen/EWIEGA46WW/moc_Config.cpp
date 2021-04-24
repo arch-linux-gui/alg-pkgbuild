@@ -193,7 +193,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->currentLocationChanged((*reinterpret_cast< const CalamaresUtils::Locale::TimeZoneData*(*)>(_a[1]))); break;
         case 1: _t->currentLocationStatusChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
@@ -302,7 +302,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< QStringList*>(_v) = _t->supportedLocales(); break;
@@ -322,7 +322,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 10: _t->setLanguageExplicitly(*reinterpret_cast< QString*>(_v)); break;

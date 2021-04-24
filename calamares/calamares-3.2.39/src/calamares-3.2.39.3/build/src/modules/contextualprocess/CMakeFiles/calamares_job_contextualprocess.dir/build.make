@@ -108,11 +108,11 @@ calamares_job_contextualprocess_EXTERNAL_OBJECTS =
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: src/modules/contextualprocess/CMakeFiles/calamares_job_contextualprocess.dir/calamares_job_contextualprocess_autogen/mocs_compilation.cpp.o
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: src/modules/contextualprocess/CMakeFiles/calamares_job_contextualprocess.dir/ContextualProcessJob.cpp.o
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: src/modules/contextualprocess/CMakeFiles/calamares_job_contextualprocess.dir/build.make
-src/modules/contextualprocess/libcalamares_job_contextualprocess.so: libcalamares.so.3.2.39.3-3.3
+src/modules/contextualprocess/libcalamares_job_contextualprocess.so: libcalamares.so.3.2.39.3-4.3
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libyaml-cpp.so
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libQt5Widgets.so.5.15.2
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libQt5Gui.so.5.15.2
 src/modules/contextualprocess/libcalamares_job_contextualprocess.so: /usr/lib/libQt5Core.so.5.15.2

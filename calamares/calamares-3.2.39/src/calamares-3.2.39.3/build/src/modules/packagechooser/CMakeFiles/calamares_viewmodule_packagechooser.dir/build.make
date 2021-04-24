@@ -196,12 +196,12 @@ src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: src/module
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: src/modules/packagechooser/CMakeFiles/calamares_viewmodule_packagechooser.dir/ItemAppStream.cpp.o
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: src/modules/packagechooser/CMakeFiles/calamares_viewmodule_packagechooser.dir/calamares_viewmodule_packagechooser_autogen/EWIEGA46WW/qrc_packagechooser.cpp.o
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: src/modules/packagechooser/CMakeFiles/calamares_viewmodule_packagechooser.dir/build.make
-src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: libcalamaresui.so.3.2.39.3-3.3
+src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: libcalamaresui.so.3.2.39.3-4.3
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libQt5Xml.so.5.15.2
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libAppStreamQt.so.0.14.3
-src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: libcalamares.so.3.2.39.3-3.3
+src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: libcalamares.so.3.2.39.3-4.3
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libyaml-cpp.so
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libQt5Svg.so.5.15.2
 src/modules/packagechooser/libcalamares_viewmodule_packagechooser.so: /usr/lib/libQt5QuickWidgets.so.5.15.2

@@ -75,7 +75,7 @@ void CalamaresApplication::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<CalamaresApplication *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->initView(); break;
         case 1: _t->initViewSteps(); break;

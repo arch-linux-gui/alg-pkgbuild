@@ -73,7 +73,7 @@ void KPMTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<KPMTests *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->initTestCase(); break;
         case 1: _t->testFlagNames(); break;
@@ -81,7 +81,7 @@ void KPMTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject KPMTests::staticMetaObject = { {

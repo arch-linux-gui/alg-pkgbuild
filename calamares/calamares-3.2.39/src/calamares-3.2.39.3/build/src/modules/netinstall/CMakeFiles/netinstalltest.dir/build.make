@@ -140,12 +140,12 @@ netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make
-netinstalltest: libcalamares.so.3.2.39.3-3.3
+netinstalltest: libcalamares.so.3.2.39.3-4.3
 netinstalltest: /usr/lib/libyaml-cpp.so
 netinstalltest: /usr/lib/libQt5Test.so.5.15.2
 netinstalltest: /usr/lib/libQt5Network.so.5.15.2
 netinstalltest: /usr/lib/libQt5Xml.so.5.15.2
-netinstalltest: /usr/lib/libKF5CoreAddons.so.5.80.0
+netinstalltest: /usr/lib/libKF5CoreAddons.so.5.81.0
 netinstalltest: /usr/lib/libQt5Gui.so.5.15.2
 netinstalltest: /usr/lib/libQt5Core.so.5.15.2
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/link.txt

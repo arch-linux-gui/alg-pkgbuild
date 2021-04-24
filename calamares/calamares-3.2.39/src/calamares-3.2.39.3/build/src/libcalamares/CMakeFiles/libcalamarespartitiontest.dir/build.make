@@ -108,12 +108,12 @@ libcalamarespartitiontest_EXTERNAL_OBJECTS =
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/libcalamarespartitiontest_autogen/mocs_compilation.cpp.o
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/partition/Tests.cpp.o
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/build.make
-libcalamarespartitiontest: libcalamares.so.3.2.39.3-3.3
+libcalamarespartitiontest: libcalamares.so.3.2.39.3-4.3
 libcalamarespartitiontest: /usr/lib/libQt5Test.so.5.15.2
 libcalamarespartitiontest: /usr/lib/libyaml-cpp.so
 libcalamarespartitiontest: /usr/lib/libQt5Network.so.5.15.2
 libcalamarespartitiontest: /usr/lib/libQt5Xml.so.5.15.2
-libcalamarespartitiontest: /usr/lib/libKF5CoreAddons.so.5.80.0
+libcalamarespartitiontest: /usr/lib/libKF5CoreAddons.so.5.81.0
 libcalamarespartitiontest: /usr/lib/libQt5Core.so.5.15.2
 libcalamarespartitiontest: src/libcalamares/CMakeFiles/libcalamarespartitiontest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamarespartitiontest"

@@ -85,7 +85,7 @@ void LoaderQueue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<LoaderQueue *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->done(); break;
         case 1: _t->load(); break;

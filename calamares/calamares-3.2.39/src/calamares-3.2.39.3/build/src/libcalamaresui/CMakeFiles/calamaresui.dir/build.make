@@ -461,50 +461,50 @@ calamaresui_OBJECTS = \
 # External object files for target calamaresui
 calamaresui_EXTERNAL_OBJECTS =
 
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilation.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/CalamaresUtilsGui.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Paste.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ClickableLabel.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/__/__/3rdparty/waitingspinnerwidget.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Qml.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc_libcalamaresui.cpp.o
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/build.make
-libcalamaresui.so.3.2.39.3-3.3: libcalamares.so.3.2.39.3-3.3
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Svg.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libyaml-cpp.so
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5QuickWidgets.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Xml.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libKF5CoreAddons.so.5.80.0
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Widgets.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Quick.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Gui.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5QmlModels.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Qml.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Network.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: /usr/lib/libQt5Core.so.5.15.2
-libcalamaresui.so.3.2.39.3-3.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/link.txt
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/mocs_compilation.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/CppJobModule.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleFactory.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/CalamaresUtilsGui.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/ImageRegistry.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Paste.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/BlankViewStep.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ExecutionViewStep.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/Slideshow.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/ViewStep.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/ClickableLabel.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/FixedAspectRatioLabel.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/WaitingWidget.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/__/__/3rdparty/waitingspinnerwidget.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/Branding.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/ViewManager.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/utils/Qml.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/viewpages/QmlViewStep.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/calamaresui_autogen/EWIEGA46WW/qrc_libcalamaresui.cpp.o
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/build.make
+libcalamaresui.so.3.2.39.3-4.3: libcalamares.so.3.2.39.3-4.3
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Svg.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libyaml-cpp.so
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5QuickWidgets.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Xml.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libKF5CoreAddons.so.5.81.0
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Widgets.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Quick.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Gui.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5QmlModels.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Qml.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Network.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: /usr/lib/libQt5Core.so.5.15.2
+libcalamaresui.so.3.2.39.3-4.3: src/libcalamaresui/CMakeFiles/calamaresui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX shared library ../../libcalamaresui.so"
 	cd /home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/src/libcalamaresui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamaresui.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/src/libcalamaresui && $(CMAKE_COMMAND) -E cmake_symlink_library ../../libcalamaresui.so.3.2.39.3-3.3 ../../libcalamaresui.so.3.2.39.3-3.3 ../../libcalamaresui.so
+	cd /home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/src/libcalamaresui && $(CMAKE_COMMAND) -E cmake_symlink_library ../../libcalamaresui.so.3.2.39.3-4.3 ../../libcalamaresui.so.3.2.39.3-4.3 ../../libcalamaresui.so
 
-libcalamaresui.so: libcalamaresui.so.3.2.39.3-3.3
+libcalamaresui.so: libcalamaresui.so.3.2.39.3-4.3
 	@$(CMAKE_COMMAND) -E touch_nocreate libcalamaresui.so
 
 # Rule to build all files generated by this target.

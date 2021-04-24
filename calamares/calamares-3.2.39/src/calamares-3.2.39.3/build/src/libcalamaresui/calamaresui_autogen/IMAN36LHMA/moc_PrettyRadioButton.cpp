@@ -69,7 +69,7 @@ void Calamares::PrettyRadioButton::qt_static_metacall(QObject *_o, QMetaObject::
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<PrettyRadioButton *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->toggleOptions((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;

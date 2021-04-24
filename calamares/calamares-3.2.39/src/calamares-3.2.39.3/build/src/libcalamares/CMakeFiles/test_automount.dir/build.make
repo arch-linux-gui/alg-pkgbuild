@@ -92,12 +92,12 @@ test_automount_EXTERNAL_OBJECTS =
 
 test_automount: src/libcalamares/CMakeFiles/test_automount.dir/partition/calautomount.cpp.o
 test_automount: src/libcalamares/CMakeFiles/test_automount.dir/build.make
-test_automount: libcalamares.so.3.2.39.3-3.3
+test_automount: libcalamares.so.3.2.39.3-4.3
 test_automount: /usr/lib/libyaml-cpp.so
 test_automount: /usr/lib/libQt5Network.so.5.15.2
 test_automount: /usr/lib/libQt5Xml.so.5.15.2
 test_automount: /usr/lib/libQt5DBus.so.5.15.2
-test_automount: /usr/lib/libKF5CoreAddons.so.5.80.0
+test_automount: /usr/lib/libKF5CoreAddons.so.5.81.0
 test_automount: /usr/lib/libQt5Core.so.5.15.2
 test_automount: src/libcalamares/CMakeFiles/test_automount.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../test_automount"

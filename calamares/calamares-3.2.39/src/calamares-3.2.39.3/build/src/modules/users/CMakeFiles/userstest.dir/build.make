@@ -204,7 +204,7 @@ userstest: src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o
 userstest: src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o
 userstest: src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o
 userstest: src/modules/users/CMakeFiles/userstest.dir/build.make
-userstest: libcalamares.so.3.2.39.3-3.3
+userstest: libcalamares.so.3.2.39.3-4.3
 userstest: /usr/lib/libcrypt.so
 userstest: /usr/lib/libpwquality.so
 userstest: /usr/lib/libicuuc.so
@@ -214,7 +214,7 @@ userstest: /usr/lib/libyaml-cpp.so
 userstest: /usr/lib/libQt5Network.so.5.15.2
 userstest: /usr/lib/libQt5Xml.so.5.15.2
 userstest: /usr/lib/libQt5DBus.so.5.15.2
-userstest: /usr/lib/libKF5CoreAddons.so.5.80.0
+userstest: /usr/lib/libKF5CoreAddons.so.5.81.0
 userstest: /usr/lib/libQt5Core.so.5.15.2
 userstest: src/modules/users/CMakeFiles/userstest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../userstest"

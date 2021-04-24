@@ -72,7 +72,7 @@ void CalamaresUtils::Locale::TimeZoneData::qt_static_metacall(QObject *_o, QMeta
 #ifndef QT_NO_PROPERTIES
     if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<TimeZoneData *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< QString*>(_v) = _t->region(); break;
@@ -85,10 +85,10 @@ void CalamaresUtils::Locale::TimeZoneData::qt_static_metacall(QObject *_o, QMeta
     } else if (_c == QMetaObject::ResetProperty) {
     }
 #endif // QT_NO_PROPERTIES
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject CalamaresUtils::Locale::TimeZoneData::staticMetaObject = { {
@@ -189,7 +189,7 @@ void CalamaresUtils::Locale::RegionsModel::qt_static_metacall(QObject *_o, QMeta
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<RegionsModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: { QString _r = _t->tr((*reinterpret_cast< const QString(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
@@ -295,7 +295,7 @@ void CalamaresUtils::Locale::ZonesModel::qt_static_metacall(QObject *_o, QMetaOb
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ZonesModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: { const TimeZoneData* _r = _t->find((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
             if (_a[0]) *reinterpret_cast< const TimeZoneData**>(_a[0]) = std::move(_r); }  break;
@@ -409,7 +409,7 @@ void CalamaresUtils::Locale::RegionalZonesModel::qt_static_metacall(QObject *_o,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<RegionalZonesModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->regionChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->setRegion((*reinterpret_cast< const QString(*)>(_a[1]))); break;
@@ -428,7 +428,7 @@ void CalamaresUtils::Locale::RegionalZonesModel::qt_static_metacall(QObject *_o,
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<RegionalZonesModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< QString*>(_v) = _t->region(); break;
@@ -436,7 +436,7 @@ void CalamaresUtils::Locale::RegionalZonesModel::qt_static_metacall(QObject *_o,
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<RegionalZonesModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: _t->setRegion(*reinterpret_cast< QString*>(_v)); break;

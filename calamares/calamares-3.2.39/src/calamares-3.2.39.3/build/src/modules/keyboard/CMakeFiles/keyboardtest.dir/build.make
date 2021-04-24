@@ -149,12 +149,12 @@ keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/build.make
-keyboardtest: libcalamares.so.3.2.39.3-3.3
+keyboardtest: libcalamares.so.3.2.39.3-4.3
 keyboardtest: /usr/lib/libQt5Test.so.5.15.2
 keyboardtest: /usr/lib/libyaml-cpp.so
 keyboardtest: /usr/lib/libQt5Network.so.5.15.2
 keyboardtest: /usr/lib/libQt5Xml.so.5.15.2
-keyboardtest: /usr/lib/libKF5CoreAddons.so.5.80.0
+keyboardtest: /usr/lib/libKF5CoreAddons.so.5.81.0
 keyboardtest: /usr/lib/libQt5Core.so.5.15.2
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../keyboardtest"

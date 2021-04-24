@@ -131,7 +131,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->installChoiceChanged((*reinterpret_cast< InstallChoice(*)>(_a[1]))); break;
         case 1: _t->swapChoiceChanged((*reinterpret_cast< SwapChoice(*)>(_a[1]))); break;
@@ -161,7 +161,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< InstallChoice*>(_v) = _t->installChoice(); break;
@@ -171,7 +171,7 @@ void Config::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: _t->setInstallChoice(*reinterpret_cast< InstallChoice*>(_v)); break;

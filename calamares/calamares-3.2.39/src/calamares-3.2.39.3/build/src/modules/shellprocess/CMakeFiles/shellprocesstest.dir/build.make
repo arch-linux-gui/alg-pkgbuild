@@ -108,12 +108,12 @@ shellprocesstest_EXTERNAL_OBJECTS =
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/shellprocesstest_autogen/mocs_compilation.cpp.o
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/Tests.cpp.o
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/build.make
-shellprocesstest: libcalamares.so.3.2.39.3-3.3
+shellprocesstest: libcalamares.so.3.2.39.3-4.3
 shellprocesstest: /usr/lib/libyaml-cpp.so
 shellprocesstest: /usr/lib/libQt5Test.so.5.15.2
 shellprocesstest: /usr/lib/libQt5Network.so.5.15.2
 shellprocesstest: /usr/lib/libQt5Xml.so.5.15.2
-shellprocesstest: /usr/lib/libKF5CoreAddons.so.5.80.0
+shellprocesstest: /usr/lib/libKF5CoreAddons.so.5.81.0
 shellprocesstest: /usr/lib/libQt5Core.so.5.15.2
 shellprocesstest: src/modules/shellprocess/CMakeFiles/shellprocesstest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../shellprocesstest"

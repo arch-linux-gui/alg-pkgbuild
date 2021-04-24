@@ -108,7 +108,7 @@ void ChoicePage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ChoicePage *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->nextStatusChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->actionChosen(); break;

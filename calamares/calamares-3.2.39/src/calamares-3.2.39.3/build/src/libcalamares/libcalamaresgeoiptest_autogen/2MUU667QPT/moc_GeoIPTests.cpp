@@ -100,7 +100,7 @@ void GeoIPTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<GeoIPTests *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->initTestCase(); break;
         case 1: _t->testFixed(); break;
@@ -116,7 +116,7 @@ void GeoIPTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject GeoIPTests::staticMetaObject = { {

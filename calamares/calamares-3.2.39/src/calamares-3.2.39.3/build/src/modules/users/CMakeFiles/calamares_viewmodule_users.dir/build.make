@@ -149,14 +149,14 @@ src/modules/users/libcalamares_viewmodule_users.so: src/modules/users/CMakeFiles
 src/modules/users/libcalamares_viewmodule_users.so: src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp.o
 src/modules/users/libcalamares_viewmodule_users.so: src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/build.make
 src/modules/users/libcalamares_viewmodule_users.so: libusers_internal.a
-src/modules/users/libcalamares_viewmodule_users.so: libcalamaresui.so.3.2.39.3-3.3
+src/modules/users/libcalamares_viewmodule_users.so: libcalamaresui.so.3.2.39.3-4.3
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libcrypt.so
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libpwquality.so
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libicuuc.so
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libicui18n.so
-src/modules/users/libcalamares_viewmodule_users.so: libcalamares.so.3.2.39.3-3.3
+src/modules/users/libcalamares_viewmodule_users.so: libcalamares.so.3.2.39.3-4.3
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libQt5DBus.so.5.15.2
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libyaml-cpp.so
 src/modules/users/libcalamares_viewmodule_users.so: /usr/lib/libQt5Svg.so.5.15.2

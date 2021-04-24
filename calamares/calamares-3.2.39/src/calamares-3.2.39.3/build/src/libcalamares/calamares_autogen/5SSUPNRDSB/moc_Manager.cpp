@@ -85,7 +85,7 @@ void CalamaresUtils::Network::Manager::qt_static_metacall(QObject *_o, QMetaObje
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<Manager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->hasInternetChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: { bool _r = _t->checkHasInternet();
@@ -107,7 +107,7 @@ void CalamaresUtils::Network::Manager::qt_static_metacall(QObject *_o, QMetaObje
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<Manager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< bool*>(_v) = _t->hasInternet(); break;

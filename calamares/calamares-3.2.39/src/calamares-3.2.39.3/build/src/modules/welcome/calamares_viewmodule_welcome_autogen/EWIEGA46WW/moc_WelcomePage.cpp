@@ -70,14 +70,14 @@ void WelcomePage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<WelcomePage *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->retranslate(); break;
         case 1: _t->showAboutBox(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject WelcomePage::staticMetaObject = { {

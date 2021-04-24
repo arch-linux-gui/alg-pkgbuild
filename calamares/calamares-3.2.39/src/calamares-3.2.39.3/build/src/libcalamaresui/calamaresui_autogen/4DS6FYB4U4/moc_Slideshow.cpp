@@ -57,10 +57,10 @@ static const uint qt_meta_data_Calamares__Slideshow[] = {
 
 void Calamares::Slideshow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject Calamares::Slideshow::staticMetaObject = { {
@@ -144,7 +144,7 @@ void Calamares::SlideshowQML::qt_static_metacall(QObject *_o, QMetaObject::Call 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<SlideshowQML *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->loadQmlV2Complete(); break;
         case 1: _t->loadQmlV2(); break;
@@ -152,7 +152,7 @@ void Calamares::SlideshowQML::qt_static_metacall(QObject *_o, QMetaObject::Call 
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject Calamares::SlideshowQML::staticMetaObject = { {
@@ -240,13 +240,13 @@ void Calamares::SlideshowPictures::qt_static_metacall(QObject *_o, QMetaObject::
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<SlideshowPictures *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->next(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject Calamares::SlideshowPictures::staticMetaObject = { {

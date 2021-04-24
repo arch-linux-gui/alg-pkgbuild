@@ -74,7 +74,7 @@ void WaitingSpinnerWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<WaitingSpinnerWidget *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->start(); break;
         case 1: _t->stop(); break;
@@ -82,7 +82,7 @@ void WaitingSpinnerWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject WaitingSpinnerWidget::staticMetaObject = { {

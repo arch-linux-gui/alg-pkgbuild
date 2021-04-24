@@ -242,7 +242,7 @@ void Calamares::ViewManager::qt_static_metacall(QObject *_o, QMetaObject::Call _
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ViewManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->currentStepChanged(); break;
         case 1: _t->ensureSize((*reinterpret_cast< QSize(*)>(_a[1]))); break;
@@ -409,7 +409,7 @@ void Calamares::ViewManager::qt_static_metacall(QObject *_o, QMetaObject::Call _
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<ViewManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< int*>(_v) = _t->currentStepIndex(); break;
@@ -433,7 +433,7 @@ void Calamares::ViewManager::qt_static_metacall(QObject *_o, QMetaObject::Call _
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<ViewManager *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 13: _t->setPanelSides(*reinterpret_cast< Qt::Orientations*>(_v)); break;

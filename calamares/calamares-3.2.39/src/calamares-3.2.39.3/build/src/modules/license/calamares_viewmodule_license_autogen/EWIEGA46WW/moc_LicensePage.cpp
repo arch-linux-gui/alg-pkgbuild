@@ -80,7 +80,7 @@ void LicensePage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<LicensePage *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->nextStatusChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->checkAcceptance((*reinterpret_cast< bool(*)>(_a[1]))); break;

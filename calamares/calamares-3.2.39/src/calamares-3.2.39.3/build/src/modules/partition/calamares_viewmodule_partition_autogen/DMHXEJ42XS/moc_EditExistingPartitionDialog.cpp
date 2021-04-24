@@ -68,13 +68,13 @@ void EditExistingPartitionDialog::qt_static_metacall(QObject *_o, QMetaObject::C
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<EditExistingPartitionDialog *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->checkMountPointSelection(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject EditExistingPartitionDialog::staticMetaObject = { {

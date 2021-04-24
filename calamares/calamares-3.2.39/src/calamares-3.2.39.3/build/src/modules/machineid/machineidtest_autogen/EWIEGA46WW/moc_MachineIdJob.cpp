@@ -58,10 +58,10 @@ static const uint qt_meta_data_MachineIdJob[] = {
 
 void MachineIdJob::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject MachineIdJob::staticMetaObject = { {
@@ -128,10 +128,10 @@ static const uint qt_meta_data_MachineIdJobFactory[] = {
 
 void MachineIdJobFactory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject MachineIdJobFactory::staticMetaObject = { {

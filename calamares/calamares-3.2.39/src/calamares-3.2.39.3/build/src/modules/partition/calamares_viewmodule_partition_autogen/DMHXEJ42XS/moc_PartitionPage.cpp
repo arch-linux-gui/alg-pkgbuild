@@ -79,7 +79,7 @@ void PartitionPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<PartitionPage *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->updateFromCurrentDevice(); break;
         case 1: _t->updateBootLoaderInstallPath(); break;
@@ -88,7 +88,7 @@ void PartitionPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject PartitionPage::staticMetaObject = { {

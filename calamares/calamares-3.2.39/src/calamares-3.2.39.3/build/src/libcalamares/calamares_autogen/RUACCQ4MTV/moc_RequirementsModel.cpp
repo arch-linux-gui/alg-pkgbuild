@@ -93,7 +93,7 @@ void Calamares::RequirementsModel::qt_static_metacall(QObject *_o, QMetaObject::
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<RequirementsModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->satisfiedRequirementsChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->satisfiedMandatoryChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
@@ -127,7 +127,7 @@ void Calamares::RequirementsModel::qt_static_metacall(QObject *_o, QMetaObject::
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<RequirementsModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< bool*>(_v) = _t->satisfiedRequirements(); break;

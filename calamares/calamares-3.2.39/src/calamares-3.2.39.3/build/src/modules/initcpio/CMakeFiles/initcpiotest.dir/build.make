@@ -111,11 +111,11 @@ initcpiotest: src/modules/initcpio/CMakeFiles/initcpiotest.dir/build.make
 initcpiotest: src/modules/initcpio/libcalamares_job_initcpio.so
 initcpiotest: /usr/lib/libyaml-cpp.so
 initcpiotest: /usr/lib/libQt5Test.so.5.15.2
-initcpiotest: libcalamares.so.3.2.39.3-3.3
+initcpiotest: libcalamares.so.3.2.39.3-4.3
 initcpiotest: /usr/lib/libyaml-cpp.so
 initcpiotest: /usr/lib/libQt5Network.so.5.15.2
 initcpiotest: /usr/lib/libQt5Xml.so.5.15.2
-initcpiotest: /usr/lib/libKF5CoreAddons.so.5.80.0
+initcpiotest: /usr/lib/libKF5CoreAddons.so.5.81.0
 initcpiotest: /usr/lib/libQt5Widgets.so.5.15.2
 initcpiotest: /usr/lib/libQt5Gui.so.5.15.2
 initcpiotest: /usr/lib/libQt5Core.so.5.15.2

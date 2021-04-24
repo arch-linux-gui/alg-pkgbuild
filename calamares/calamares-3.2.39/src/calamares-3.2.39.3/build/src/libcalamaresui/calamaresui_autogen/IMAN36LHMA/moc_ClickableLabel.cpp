@@ -67,7 +67,7 @@ void Calamares::ClickableLabel::qt_static_metacall(QObject *_o, QMetaObject::Cal
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ClickableLabel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->clicked(); break;
         default: ;
@@ -82,7 +82,7 @@ void Calamares::ClickableLabel::qt_static_metacall(QObject *_o, QMetaObject::Cal
             }
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject Calamares::ClickableLabel::staticMetaObject = { {

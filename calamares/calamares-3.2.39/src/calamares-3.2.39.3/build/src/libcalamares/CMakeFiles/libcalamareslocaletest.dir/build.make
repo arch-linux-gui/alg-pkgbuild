@@ -108,12 +108,12 @@ libcalamareslocaletest_EXTERNAL_OBJECTS =
 libcalamareslocaletest: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/libcalamareslocaletest_autogen/mocs_compilation.cpp.o
 libcalamareslocaletest: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/locale/Tests.cpp.o
 libcalamareslocaletest: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/build.make
-libcalamareslocaletest: libcalamares.so.3.2.39.3-3.3
+libcalamareslocaletest: libcalamares.so.3.2.39.3-4.3
 libcalamareslocaletest: /usr/lib/libQt5Test.so.5.15.2
 libcalamareslocaletest: /usr/lib/libyaml-cpp.so
 libcalamareslocaletest: /usr/lib/libQt5Network.so.5.15.2
 libcalamareslocaletest: /usr/lib/libQt5Xml.so.5.15.2
-libcalamareslocaletest: /usr/lib/libKF5CoreAddons.so.5.80.0
+libcalamareslocaletest: /usr/lib/libKF5CoreAddons.so.5.81.0
 libcalamareslocaletest: /usr/lib/libQt5Core.so.5.15.2
 libcalamareslocaletest: src/libcalamares/CMakeFiles/libcalamareslocaletest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamareslocaletest"

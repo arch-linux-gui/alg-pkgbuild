@@ -81,7 +81,7 @@ void CreateLayoutsTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<CreateLayoutsTests *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->testFixedSizePartition(); break;
         case 1: _t->testPercentSizePartition(); break;
@@ -91,7 +91,7 @@ void CreateLayoutsTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject CreateLayoutsTests::staticMetaObject = { {

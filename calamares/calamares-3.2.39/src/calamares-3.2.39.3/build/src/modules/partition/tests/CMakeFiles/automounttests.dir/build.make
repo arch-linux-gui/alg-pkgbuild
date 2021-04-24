@@ -124,12 +124,12 @@ automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/automo
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/__/jobs/AutoMountManagementJob.cpp.o
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/AutoMountTests.cpp.o
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/build.make
-automounttests: libcalamares.so.3.2.39.3-3.3
+automounttests: libcalamares.so.3.2.39.3-4.3
 automounttests: /usr/lib/libQt5Test.so.5.15.2
 automounttests: /usr/lib/libyaml-cpp.so
 automounttests: /usr/lib/libQt5Network.so.5.15.2
 automounttests: /usr/lib/libQt5Xml.so.5.15.2
-automounttests: /usr/lib/libKF5CoreAddons.so.5.80.0
+automounttests: /usr/lib/libKF5CoreAddons.so.5.81.0
 automounttests: /usr/lib/libQt5Core.so.5.15.2
 automounttests: src/modules/partition/tests/CMakeFiles/automounttests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../automounttests"

@@ -74,7 +74,7 @@ void FixedAspectRatioLabel::qt_static_metacall(QObject *_o, QMetaObject::Call _c
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<FixedAspectRatioLabel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->setPixmap((*reinterpret_cast< const QPixmap(*)>(_a[1]))); break;
         case 1: _t->resizeEvent((*reinterpret_cast< QResizeEvent*(*)>(_a[1]))); break;

@@ -108,14 +108,14 @@ libcalamarespartitionkpmtest_EXTERNAL_OBJECTS =
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/build.make
-libcalamarespartitionkpmtest: libcalamares.so.3.2.39.3-3.3
+libcalamarespartitionkpmtest: libcalamares.so.3.2.39.3-4.3
 libcalamarespartitionkpmtest: /usr/lib/libpython3.9.so
 libcalamarespartitionkpmtest: /usr/lib/libboost_python3.so
 libcalamarespartitionkpmtest: /usr/lib/libkpmcore.so.20.12.3
 libcalamarespartitionkpmtest: /usr/lib/libQt5Test.so.5.15.2
 libcalamarespartitionkpmtest: /usr/lib/libQt5DBus.so.5.15.2
 libcalamarespartitionkpmtest: /usr/lib/libyaml-cpp.so
-libcalamarespartitionkpmtest: /usr/lib/libKF5CoreAddons.so.5.80.0
+libcalamarespartitionkpmtest: /usr/lib/libKF5CoreAddons.so.5.81.0
 libcalamarespartitionkpmtest: /usr/lib/libQt5Network.so.5.15.2
 libcalamarespartitionkpmtest: /usr/lib/libQt5Xml.so.5.15.2
 libcalamarespartitionkpmtest: /usr/lib/libQt5Core.so.5.15.2

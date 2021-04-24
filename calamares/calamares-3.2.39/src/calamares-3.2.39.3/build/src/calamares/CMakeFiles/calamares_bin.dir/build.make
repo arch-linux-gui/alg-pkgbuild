@@ -652,9 +652,9 @@ calamares: src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapp
 calamares: src/calamares/CMakeFiles/calamares_bin.dir/qrc_calamares_i18n.cxx.o
 calamares: src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/EWIEGA46WW/qrc_calamares.cpp.o
 calamares: src/calamares/CMakeFiles/calamares_bin.dir/build.make
-calamares: libcalamaresui.so.3.2.39.3-3.3
-calamares: /usr/lib/libKF5Crash.so.5.80.0
-calamares: libcalamares.so.3.2.39.3-3.3
+calamares: libcalamaresui.so.3.2.39.3-4.3
+calamares: /usr/lib/libKF5Crash.so.5.81.0
+calamares: libcalamares.so.3.2.39.3-4.3
 calamares: /usr/lib/libQt5Xml.so.5.15.2
 calamares: /usr/lib/libyaml-cpp.so
 calamares: /usr/lib/libQt5Svg.so.5.15.2
@@ -665,7 +665,7 @@ calamares: /usr/lib/libQt5Gui.so.5.15.2
 calamares: /usr/lib/libQt5QmlModels.so.5.15.2
 calamares: /usr/lib/libQt5Qml.so.5.15.2
 calamares: /usr/lib/libQt5Network.so.5.15.2
-calamares: /usr/lib/libKF5CoreAddons.so.5.80.0
+calamares: /usr/lib/libKF5CoreAddons.so.5.81.0
 calamares: /usr/lib/libQt5Core.so.5.15.2
 calamares: src/calamares/CMakeFiles/calamares_bin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable ../../calamares"

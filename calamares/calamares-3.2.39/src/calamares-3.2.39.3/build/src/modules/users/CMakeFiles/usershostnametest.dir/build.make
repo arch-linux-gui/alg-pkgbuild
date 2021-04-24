@@ -124,13 +124,13 @@ usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/usershostn
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/TestSetHostNameJob.cpp.o
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/SetHostNameJob.cpp.o
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/build.make
-usershostnametest: libcalamares.so.3.2.39.3-3.3
+usershostnametest: libcalamares.so.3.2.39.3-4.3
 usershostnametest: /usr/lib/libQt5Test.so.5.15.2
 usershostnametest: /usr/lib/libyaml-cpp.so
 usershostnametest: /usr/lib/libQt5Network.so.5.15.2
 usershostnametest: /usr/lib/libQt5Xml.so.5.15.2
 usershostnametest: /usr/lib/libQt5DBus.so.5.15.2
-usershostnametest: /usr/lib/libKF5CoreAddons.so.5.80.0
+usershostnametest: /usr/lib/libKF5CoreAddons.so.5.81.0
 usershostnametest: /usr/lib/libQt5Core.so.5.15.2
 usershostnametest: src/modules/users/CMakeFiles/usershostnametest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../usershostnametest"

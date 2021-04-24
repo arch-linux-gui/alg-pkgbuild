@@ -76,7 +76,7 @@ void XKBListModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<XKBListModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->currentIndexChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
@@ -94,7 +94,7 @@ void XKBListModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<XKBListModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< int*>(_v) = _t->currentIndex(); break;
@@ -102,7 +102,7 @@ void XKBListModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<XKBListModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: _t->setCurrentIndex(*reinterpret_cast< int*>(_v)); break;
@@ -212,10 +212,10 @@ static const uint qt_meta_data_KeyboardModelsModel[] = {
 
 void KeyboardModelsModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject KeyboardModelsModel::staticMetaObject = { {
@@ -301,7 +301,7 @@ void KeyboardLayoutModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<KeyboardLayoutModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->currentIndexChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
@@ -319,7 +319,7 @@ void KeyboardLayoutModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<KeyboardLayoutModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< int*>(_v) = _t->currentIndex(); break;
@@ -327,7 +327,7 @@ void KeyboardLayoutModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         }
     } else if (_c == QMetaObject::WriteProperty) {
         auto *_t = static_cast<KeyboardLayoutModel *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: _t->setCurrentIndex(*reinterpret_cast< int*>(_v)); break;
@@ -437,10 +437,10 @@ static const uint qt_meta_data_KeyboardVariantsModel[] = {
 
 void KeyboardVariantsModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
-    Q_UNUSED(_a);
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject KeyboardVariantsModel::staticMetaObject = { {

@@ -124,13 +124,13 @@ clearmountsjobtests: src/modules/partition/tests/CMakeFiles/clearmountsjobtests.
 clearmountsjobtests: src/modules/partition/tests/CMakeFiles/clearmountsjobtests.dir/__/jobs/ClearMountsJob.cpp.o
 clearmountsjobtests: src/modules/partition/tests/CMakeFiles/clearmountsjobtests.dir/ClearMountsJobTests.cpp.o
 clearmountsjobtests: src/modules/partition/tests/CMakeFiles/clearmountsjobtests.dir/build.make
-clearmountsjobtests: libcalamares.so.3.2.39.3-3.3
+clearmountsjobtests: libcalamares.so.3.2.39.3-4.3
 clearmountsjobtests: /usr/lib/libkpmcore.so.20.12.3
 clearmountsjobtests: /usr/lib/libQt5Test.so.5.15.2
 clearmountsjobtests: /usr/lib/libyaml-cpp.so
 clearmountsjobtests: /usr/lib/libQt5Network.so.5.15.2
 clearmountsjobtests: /usr/lib/libQt5Xml.so.5.15.2
-clearmountsjobtests: /usr/lib/libKF5CoreAddons.so.5.80.0
+clearmountsjobtests: /usr/lib/libKF5CoreAddons.so.5.81.0
 clearmountsjobtests: /usr/lib/libQt5Core.so.5.15.2
 clearmountsjobtests: src/modules/partition/tests/CMakeFiles/clearmountsjobtests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../clearmountsjobtests"

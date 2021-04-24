@@ -90,7 +90,7 @@ void ItemTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ItemTests *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->initTestCase(); break;
         case 1: _t->testRoot(); break;
@@ -103,7 +103,7 @@ void ItemTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject ItemTests::staticMetaObject = { {

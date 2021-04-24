@@ -109,11 +109,11 @@ src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMake
 src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMakeFiles/calamares_job_fsresizer.dir/ResizeFSJob.cpp.o
 src/modules/fsresizer/libcalamares_job_fsresizer.so: src/modules/fsresizer/CMakeFiles/calamares_job_fsresizer.dir/build.make
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libkpmcore.so.20.12.3
-src/modules/fsresizer/libcalamares_job_fsresizer.so: libcalamares.so.3.2.39.3-3.3
+src/modules/fsresizer/libcalamares_job_fsresizer.so: libcalamares.so.3.2.39.3-4.3
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libyaml-cpp.so
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Widgets.so.5.15.2
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Gui.so.5.15.2
 src/modules/fsresizer/libcalamares_job_fsresizer.so: /usr/lib/libQt5Core.so.5.15.2

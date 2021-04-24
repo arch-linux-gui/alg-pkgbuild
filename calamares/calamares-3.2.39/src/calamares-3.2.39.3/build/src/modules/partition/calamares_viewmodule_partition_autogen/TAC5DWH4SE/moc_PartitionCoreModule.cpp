@@ -81,7 +81,7 @@ void PartitionCoreModule::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<PartitionCoreModule *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->hasRootMountPointChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: _t->isDirtyChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;

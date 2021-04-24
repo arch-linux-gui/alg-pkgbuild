@@ -68,13 +68,13 @@ void ClearMountsJobTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ClearMountsJobTests *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->testFindPartitions(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject ClearMountsJobTests::staticMetaObject = { {

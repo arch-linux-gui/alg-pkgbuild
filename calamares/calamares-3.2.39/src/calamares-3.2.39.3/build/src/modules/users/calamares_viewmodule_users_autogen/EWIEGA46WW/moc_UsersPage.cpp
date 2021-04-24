@@ -86,7 +86,7 @@ void UsersPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<UsersPage *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->onFullNameTextEdited((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->reportLoginNameStatus((*reinterpret_cast< const QString(*)>(_a[1]))); break;

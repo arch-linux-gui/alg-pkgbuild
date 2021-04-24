@@ -108,11 +108,11 @@ calamares_job_shellprocess_EXTERNAL_OBJECTS =
 src/modules/shellprocess/libcalamares_job_shellprocess.so: src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/calamares_job_shellprocess_autogen/mocs_compilation.cpp.o
 src/modules/shellprocess/libcalamares_job_shellprocess.so: src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/ShellProcessJob.cpp.o
 src/modules/shellprocess/libcalamares_job_shellprocess.so: src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/build.make
-src/modules/shellprocess/libcalamares_job_shellprocess.so: libcalamares.so.3.2.39.3-3.3
+src/modules/shellprocess/libcalamares_job_shellprocess.so: libcalamares.so.3.2.39.3-4.3
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libyaml-cpp.so
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libQt5Network.so.5.15.2
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libQt5Xml.so.5.15.2
-src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libKF5CoreAddons.so.5.80.0
+src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libKF5CoreAddons.so.5.81.0
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libQt5Widgets.so.5.15.2
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libQt5Gui.so.5.15.2
 src/modules/shellprocess/libcalamares_job_shellprocess.so: /usr/lib/libQt5Core.so.5.15.2

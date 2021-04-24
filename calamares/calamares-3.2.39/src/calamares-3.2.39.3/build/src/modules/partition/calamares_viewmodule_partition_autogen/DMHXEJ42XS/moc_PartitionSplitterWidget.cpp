@@ -68,7 +68,7 @@ void PartitionSplitterWidget::qt_static_metacall(QObject *_o, QMetaObject::Call 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<PartitionSplitterWidget *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->partitionResized((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< qint64(*)>(_a[2])),(*reinterpret_cast< qint64(*)>(_a[3]))); break;
         default: ;

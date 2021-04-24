@@ -69,7 +69,7 @@ void Calamares::ModuleSystem::Config::qt_static_metacall(QObject *_o, QMetaObjec
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<Config *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: { bool _r = _t->isEditable((*reinterpret_cast< const QString(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;

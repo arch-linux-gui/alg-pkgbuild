@@ -90,7 +90,7 @@ void Calamares::RequirementsChecker::qt_static_metacall(QObject *_o, QMetaObject
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<RequirementsChecker *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->requirementsProgress((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->done(); break;

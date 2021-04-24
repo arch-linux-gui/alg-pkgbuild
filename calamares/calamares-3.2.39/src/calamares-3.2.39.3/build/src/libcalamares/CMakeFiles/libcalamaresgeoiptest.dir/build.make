@@ -108,12 +108,12 @@ libcalamaresgeoiptest_EXTERNAL_OBJECTS =
 libcalamaresgeoiptest: src/libcalamares/CMakeFiles/libcalamaresgeoiptest.dir/libcalamaresgeoiptest_autogen/mocs_compilation.cpp.o
 libcalamaresgeoiptest: src/libcalamares/CMakeFiles/libcalamaresgeoiptest.dir/geoip/GeoIPTests.cpp.o
 libcalamaresgeoiptest: src/libcalamares/CMakeFiles/libcalamaresgeoiptest.dir/build.make
-libcalamaresgeoiptest: libcalamares.so.3.2.39.3-3.3
+libcalamaresgeoiptest: libcalamares.so.3.2.39.3-4.3
 libcalamaresgeoiptest: /usr/lib/libQt5Test.so.5.15.2
 libcalamaresgeoiptest: /usr/lib/libyaml-cpp.so
 libcalamaresgeoiptest: /usr/lib/libQt5Network.so.5.15.2
 libcalamaresgeoiptest: /usr/lib/libQt5Xml.so.5.15.2
-libcalamaresgeoiptest: /usr/lib/libKF5CoreAddons.so.5.80.0
+libcalamaresgeoiptest: /usr/lib/libKF5CoreAddons.so.5.81.0
 libcalamaresgeoiptest: /usr/lib/libQt5Core.so.5.15.2
 libcalamaresgeoiptest: src/libcalamares/CMakeFiles/libcalamaresgeoiptest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demonkiller/files/alg-pkgbuild/calamares/calamares-3.2.39/src/calamares-3.2.39.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamaresgeoiptest"
