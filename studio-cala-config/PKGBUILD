@@ -1,12 +1,12 @@
 # Maintainer: DemonKiller
-pkgname=alg-min-cala-config
+pkgname=studio-cala-config
 _destname1="/etc"
 _destname2="/etc"
 _destname3="/etc"
 _destname4="/etc"
-pkgver=21.06
-pkgrel=1
-pkgdesc="Calamares config for Arch Linux GUI Pure"
+pkgver=21.05
+pkgrel=2
+pkgdesc="Calamares config for Arch Linux GUI Zen Edition"
 arch=('any')
 url="https://github.com/arch-linux-gui"
 license=('GPL3')
