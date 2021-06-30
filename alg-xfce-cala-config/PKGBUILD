@@ -1,8 +1,8 @@
 # Maintainer: DemonKiller
 pkgname=alg-xfce-cala-config
 destname="/etc"
-pkgver=21.06
-pkgrel=2
+pkgver=21.07
+pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI XFCE Edition"
 arch=('any')
 url="https://github.com/arch-linux-gui"
