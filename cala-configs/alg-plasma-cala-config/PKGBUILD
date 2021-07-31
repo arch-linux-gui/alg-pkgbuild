@@ -1,5 +1,5 @@
 # Maintainer: DemonKiller
-pkgname=alg-plasmacala-config
+pkgname=alg-plasma-cala-config
 _destname1="/etc"
 _destname2="/etc"
 _destname3="/etc"
