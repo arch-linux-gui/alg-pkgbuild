@@ -1,0 +1,20 @@
+# Maintainer: DemonKiller
+pkgname=alg-net-cala-config
+destname="/etc"
+pkgver=21.07
+pkgrel=1
+pkgdesc="Calamares config for Arch Linux GUI Net-installer"
+arch=('any')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${pkgname}")
+sha256sums=('SKIP')
+package() {
+	install -dm755 ${pkgdir}${destname}
+	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+}

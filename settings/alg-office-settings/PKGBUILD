@@ -1,0 +1,23 @@
+# Maintainer: DemonKiller
+pkgname=alg-office-settings
+destname="/etc"
+pkgver=21.07
+pkgrel=1
+pkgdesc="ALG Settings for LibreOffice, providing visible icons in dark theme, and MS-font support"
+arch=('x86_64')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+
+depends=('libreoffice-fresh' 'ttf-ms-fonts')
+
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${pkgname}")
+sha256sums=('SKIP')
+
+package() {
+	install -dm755 ${pkgdir}${destname}
+	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+}

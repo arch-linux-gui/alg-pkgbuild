@@ -1,19 +1,20 @@
 # Maintainer: DemonKiller
-pkgname=alg-net-cala-config
+pkgname=alg-firefox-settings
 destname="/etc"
-pkgver=21.06
-pkgrel=8
-pkgdesc="Calamares config for Arch Linux GUI Net-installer"
-arch=('any')
+pkgver=21.07
+pkgrel=2
+pkgdesc="ALG Settings for Firefox, providing browser-wide dark theme"
+arch=('x86_64')
 url="https://github.com/arch-linux-gui"
 license=('GPL3')
 makedepends=('git')
-depends=()
+depends=('firefox')
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
+
 package() {
 	install -dm755 ${pkgdir}${destname}
 	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
