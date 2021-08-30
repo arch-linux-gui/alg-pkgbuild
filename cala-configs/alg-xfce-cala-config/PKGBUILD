@@ -1,7 +1,7 @@
 # Maintainer: DemonKiller
 pkgname=alg-xfce-cala-config
 destname="/etc"
-pkgver=21.07
+pkgver=21.09
 pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI XFCE Edition"
 arch=('any')
@@ -17,4 +17,5 @@ sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${destname}
 	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+	chmod 755 ${pkgdir}/etc/calamares/launch.sh
 }

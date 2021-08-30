@@ -1,10 +1,7 @@
 # Maintainer: DemonKiller
 pkgname=alg-plasma-cala-config
-_destname1="/etc"
-_destname2="/etc"
-_destname3="/etc"
-_destname4="/etc"
-pkgver=21.07
+destname="/etc"
+pkgver=21.09
 pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI Plasma Editions"
 arch=('any')
@@ -18,6 +15,7 @@ options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
 package() {
-	install -dm755 ${pkgdir}${_destname1}
-	cp -r ${srcdir}/${pkgname}${_destname1}/* ${pkgdir}${_destname1}
+	install -dm755 ${pkgdir}${destname}
+	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+    chmod 755 ${pkgdir}/etc/calamares/launch.sh
 }
