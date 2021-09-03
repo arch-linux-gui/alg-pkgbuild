@@ -1,7 +1,7 @@
 cd # Maintainer: DemonKiller
 pkgname=alg-plasma-settings
 destname="/etc"
-pkgver=21.07
+pkgver=2
 pkgrel=1
 pkgdesc="Settings for Arch Linux GUI Plasma Edition"
 arch=('x86_64')

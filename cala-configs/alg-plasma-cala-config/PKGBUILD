@@ -2,7 +2,7 @@
 pkgname=alg-plasma-cala-config
 destname="/etc"
 pkgver=21.09
-pkgrel=1
+pkgrel=2
 pkgdesc="Calamares config for Arch Linux GUI Plasma Editions"
 arch=('any')
 url="https://github.com/arch-linux-gui"
