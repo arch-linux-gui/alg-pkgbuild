@@ -1,8 +1,8 @@
 # Maintainer: DemonKiller
 pkgname=alg-firefox-settings
 destname="/etc"
-pkgver=21.07
-pkgrel=2
+pkgver=21.10
+pkgrel=1
 pkgdesc="ALG Settings for Firefox, providing browser-wide dark theme"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui"

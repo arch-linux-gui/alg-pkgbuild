@@ -1,3 +1,3 @@
 rm -rvf pkg/
 rm -rvf src/
-rm -rvf alg-mate*
+rm -rvf cala*
