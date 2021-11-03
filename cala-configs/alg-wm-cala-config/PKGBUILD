@@ -1,9 +1,9 @@
 # Maintainer: DemonKiller
-pkgname=alg-gnome-cala-config
+pkgname=alg-wm-cala-config
 destname="/etc/calamares"
-pkgver=21.09
+pkgver=21.10
 pkgrel=1
-pkgdesc="Calamares config for Arch Linux GUI GNOME Editions"
+pkgdesc="Calamares configuration for Arch Linux GUI Window Manager Editions"
 arch=('any')
 url="https://github.com/arch-linux-gui"
 license=('GPL3')

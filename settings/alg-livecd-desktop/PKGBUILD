@@ -1,0 +1,21 @@
+#Maintainer: DemonKiller
+pkgname=alg-livecd-desktop
+destname="/etc/skel/Desktop"
+pkgver=21.10
+pkgrel=2
+pkgdesc="LiveCD desktop items for Arch Linux GUI"
+arch=('any')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${pkgname}")
+sha256sums=('SKIP')
+package() {
+	install -dm755 ${pkgdir}${destname}
+	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+	#chmod 755 ${destname}/calamares.desktop
+}

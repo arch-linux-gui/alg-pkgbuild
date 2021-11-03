@@ -1,8 +1,8 @@
 # Maintainer: DemonKiller
 pkgname=alg-net-cala-config
 destname="/etc"
-pkgver=21.07
-pkgrel=1
+pkgver=21.10
+pkgrel=9
 pkgdesc="Calamares config for Arch Linux GUI Net-installer"
 arch=('any')
 url="https://github.com/arch-linux-gui"
@@ -17,4 +17,5 @@ sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${destname}
 	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+	chmod 755 ${pkgdir}/etc/calamares/launch.sh
 }
