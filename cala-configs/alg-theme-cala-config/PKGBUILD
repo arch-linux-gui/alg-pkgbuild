@@ -1,8 +1,8 @@
 # Maintainer: DemonKiller
 pkgname=alg-theme-cala-config
 destname="/etc"
-pkgver=21.10
-pkgrel=3
+pkgver=22.06
+pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI Themed Editions"
 arch=('any')
 url="https://github.com/arch-linux-gui"

@@ -1,7 +1,7 @@
 # Maintainer: DemonKiller
 pkgname=alg-pure-cala-config
 destname="/etc"
-pkgver=22.03
+pkgver=22.06
 pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI Pure Editions + WMs"
 arch=('any')
