@@ -2,7 +2,7 @@
 pkgname=alg-zen-cala-config
 destname="/etc"
 pkgver=22.07
-pkgrel=2
+pkgrel=3
 pkgdesc="Calamares config for Arch Linux GUI Zen Edition"
 arch=('any')
 url="https://github.com/arch-linux-gui"
