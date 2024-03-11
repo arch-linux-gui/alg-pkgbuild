@@ -9,7 +9,7 @@ url="https://github.com/arch-linux-gui"
 license=('GPL3')
 makedepends=('git')
 
-depends=('i3-gaps' 'kitty' 'rofi' 'feh' 'picom' 'lxappearance' 'paru' 'tela-circle-icon' 'qogir-gtk-theme-git' 'mcmojave-cursors' 'betterlockscreen' 'polybar' 'ttf-unifont' 'siji' 'xorg-fonts-misc')
+depends=('i3-gaps' 'kitty' 'rofi' 'feh' 'picom' 'lxappearance' 'paru' 'tela-circle-icon' 'qogir-gtk-theme-git' 'mcmojave-cursors' 'betterlockscreen' 'polybar' 'ttf-unifont' 'siji-ng' 'xorg-fonts-misc')
 
 
 optdepends=('system-config-printer: CUPS status applet'

@@ -1,8 +1,8 @@
-#calamares PKGBUILD for Arch Linux GUI
+#Calamares PKGBUILD for Arch Linux GUI
 
 pkgname=calamares
 pkgver=3.2.62
-pkgrel=9
+pkgrel=14
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
