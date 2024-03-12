@@ -2,15 +2,16 @@
 
 pkgname=calamares
 pkgver=3.3.5
-pkgrel=3
+pkgrel=7
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
 url="https://github.com/calamares/calamares/releases/download"
 license=('LGPL')
 depends=('kconfig' 'kcoreaddons' 'kiconthemes' 'ki18n' 'kio' 'solid' 'yaml-cpp' 'kpmcore' 'mkinitcpio-openswap'
-         'boost-libs' 'ckbcomp' 'hwinfo' 'qt5-svg' 'polkit-qt5' 'gtk-update-icon-cache'
-		 'squashfs-tools' 'libpwquality' 'boost') # 'pythonqt>=3.2') #'plasma-framework5') #'qt5-xmlpatterns')
+		 'ckbcomp' 'hwinfo' 'qt6-svg' 'polkit-qt6' 'gtk-update-icon-cache'
+		 'squashfs-tools' 'libpwquality' 'pybind11' 'python')
+		 #'boost-libs' 'pythonqt>=3.2')  'boost' #'plasma-framework5') #'qt5-xmlpatterns')
 makedepends=('extra-cmake-modules' 'qt6-tools' 'qt6-translations' 'git' 'boost')
 backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/displaymanager.conf'
@@ -55,8 +56,9 @@ build() {
               -DWITH_PYTHONQT:BOOL=ON \
               -DBoost_NO_BOOST_CMAKE=ON \
               -DWITH_QT6=ON \
-			  -DWITH_APPSTREAM=OFF \
-			  -DBUILD_TESTING=OFF \
+              -DWITH_PYBIND11=ON \
+              -DWITH_APPSTREAM=OFF \
+              -DBUILD_TESTING=OFF \
               -DSKIP_MODULES="tracking webview interactiveterminal initramfs \
                               initramfscfg dracut dracutlukscfg \
                               dummyprocess dummypython dummycpp \
