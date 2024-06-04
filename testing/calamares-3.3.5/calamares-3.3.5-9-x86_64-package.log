@@ -1,0 +1,570 @@
+[  0%] Built target calamares_gettext_translations_python_ar
+[  0%] Built target calamares_gettext_translations_python_ast
+[  1%] Built target calamares_gettext_translations_python_zh_TW
+[  1%] Built target calamares_gettext_translations_python_as
+[  1%] Built target calamares_gettext_translations_python_az
+[  1%] Built target calamares_gettext_translations_python_az_AZ
+[  1%] Built target calamares_gettext_translations_python_da
+[  2%] Built target calamares_gettext_translations_python_be
+[  2%] Built target calamares_gettext_translations_python_bn
+[  2%] Built target calamares_gettext_translations_python_bg
+[  3%] Built target calamares_gettext_translations_python_ca
+[  3%] Built target calamares_gettext_translations_python_cs_CZ
+[  3%] Built target calamares_gettext_translations_python_ca_valencia
+[  3%] Built target calamares_gettext_translations_python_de
+[  3%] Built target calamares_gettext_translations_python_el
+[  3%] Built target txload
+[  3%] Built target calamares_gettext_translations_python_es_MX
+[  3%] Built target calamares_gettext_translations_python_en_GB
+[  3%] Built target calamares_gettext_translations_python_eu
+[  3%] Built target calamares_gettext_translations_python_eo
+[  4%] Built target calamares_gettext_translations_python_es
+[  4%] Built target calamares_gettext_translations_python_et
+[  4%] Built target calamares_gettext_translations_python_fur
+[  4%] Built target calamares_gettext_translations_python_hr
+[  4%] Built target calamares_gettext_translations_python_fi_FI
+[  5%] Built target calamares_gettext_translations_python_he
+[  6%] Built target calamares_gettext_translations_python_es_AR
+[  6%] Built target calamares_gettext_translations_python_fa
+[  6%] Built target calamares_gettext_translations_python_fr
+[  5%] Built target calamares_gettext_translations_python_hi
+[  6%] Built target calamares_gettext_translations_python_gl
+[  6%] Built target calamares_gettext_translations_python_hu
+[  6%] Built target calamares_gettext_translations_python_is
+[  6%] Built target calamares_gettext_translations_python_id
+[  6%] Built target calamares_gettext_translations_python_ka
+[  6%] Built target calamares_gettext_translations_python_ja
+[  6%] Built target calamares_gettext_translations_python_ko
+[  6%] Built target calamares_gettext_translations_python_nb
+[  7%] Built target calamares_gettext_translations_python_mr
+[  7%] Built target calamares_gettext_translations_python_lt
+[  7%] Built target calamares_gettext_translations_python_nl
+[  8%] Built target calamares_gettext_translations_python_pl
+[  8%] Built target calamares_gettext_translations_python_it_IT
+[  8%] Built target calamares_gettext_translations_python_ml
+[  8%] Built target calamares_gettext_translations_python_oc
+[  8%] Built target calamares_gettext_translations_python_pt_PT
+[  9%] Built target calamares_gettext_translations_python_pt_BR
+[  9%] Built target calamares_gettext_translations_python_ro
+[  9%] Built target calamares_gettext_translations_python_ru
+[  9%] Built target calamares_gettext_translations_python_si
+[  9%] Built target calamares_gettext_translations_python_sk
+[  9%] Built target calamares_gettext_translations_python_sq
+[  9%] Built target calamares_gettext_translations_python_sr_latin
+[  9%] Built target calamares_gettext_translations_python_sr
+[  9%] Built target calamares_gettext_translations_python_th
+[  9%] Built target calamares_gettext_translations_python_uk
+[  9%] Built target calamares_gettext_translations_python_vi
+[ 11%] Built target calamares_gettext_translations_python_tg
+[ 11%] Built target calamares_gettext_translations_python_sl
+[ 11%] Built target calamares_gettext_translations_python_zh_CN
+[ 11%] Built target calamares_gettext_translations_python_sv
+[ 11%] Built target calamares_gettext_translations_python_tr_TR
+[ 11%] Built target kdsingleapplication_autogen_timestamp_deps
+[ 24%] Built target calamares-i18n
+[ 24%] Built target calamares_job_contextualprocess_autogen_timestamp_deps
+[ 24%] Built target calamares_job_fsresizer_autogen_timestamp_deps
+[ 24%] Built target calamares_autogen_timestamp_deps
+[ 24%] Built target calamares_job_hostinfo_autogen_timestamp_deps
+[ 24%] Built target calamares_job_machineid_autogen_timestamp_deps
+[ 24%] Built target calamares_job_initcpio_autogen_timestamp_deps
+[ 24%] Built target calamares_job_luksbootkeyfile_autogen_timestamp_deps
+[ 24%] Built target calamares_job_luksopenswaphookcfg_autogen_timestamp_deps
+[ 24%] Built target calamares_job_zfs_autogen_timestamp_deps
+[ 24%] Built target calamares_job_removeuser_autogen_timestamp_deps
+[ 24%] Built target calamares_job_preservefiles_autogen_timestamp_deps
+[ 24%] Built target calamares_job_shellprocess_autogen_timestamp_deps
+[ 24%] Built target calamares_job_umount_autogen_timestamp_deps
+[ 24%] Built target calamares-gettext-translations-python
+[ 24%] Built target branding-translation-default
+[ 24%] Built target kdsingleapplication_autogen
+[ 25%] Built target calamares_job_contextualprocess_autogen
+[ 25%] Built target calamares_job_hostinfo_autogen
+[ 25%] Built target calamares_job_fsresizer_autogen
+[ 25%] Built target calamares_job_machineid_autogen
+[ 25%] Built target calamares_job_luksbootkeyfile_autogen
+[ 25%] Built target calamares_job_luksopenswaphookcfg_autogen
+[ 25%] Built target calamares_job_zfs_autogen
+[ 25%] Built target calamares_job_shellprocess_autogen
+[ 25%] Built target calamares_job_removeuser_autogen
+[ 25%] Built target calamares_job_preservefiles_autogen
+[ 25%] Built target calamares_job_umount_autogen
+[ 25%] Built target calamares_job_initcpio_autogen
+[ 25%] Built target calamares_autogen
+[ 26%] Built target kdsingleapplication
+[ 37%] Built target calamares
+[ 37%] Built target calamaresui_autogen_timestamp_deps
+[ 37%] Built target test_geoip_autogen_timestamp_deps
+[ 37%] Built target calamares_viewmodule_summaryq_autogen_timestamp_deps
+[ 37%] Built target calamares_viewmodule_packagechooserq_autogen_timestamp_deps
+[ 37%] Built target users_internal_autogen_timestamp_deps
+[ 38%] Built target test_geoip_autogen
+[ 38%] Built target test_automount
+[ 39%] Built target calamaresui_autogen
+[ 39%] Built target calamares_viewmodule_packagechooserq_autogen
+[ 40%] Built target calamares_job_luksopenswaphookcfg
+[ 40%] Built target calamares_job_contextualprocess
+[ 41%] Built target calamares_job_initcpio
+[ 42%] Built target calamares_job_shellprocess
+[ 43%] Built target calamares_job_removeuser
+[ 44%] Built target calamares_job_hostinfo
+[ 45%] Built target calamares_job_umount
+[ 46%] Built target calamares_job_luksbootkeyfile
+[ 47%] Built target calamares_job_machineid
+[ 47%] Built target calamares_job_fsresizer
+[ 48%] Built target calamares_job_preservefiles
+[ 48%] Built target calamares_viewmodule_summaryq_autogen
+[ 49%] Built target calamares_job_zfs
+[ 50%] Built target users_internal_autogen
+[ 51%] Built target test_geoip
+[ 52%] Built target users_internal
+[ 57%] Built target calamaresui
+[ 57%] Built target calamares_viewmodule_finished_autogen_timestamp_deps
+[ 57%] Built target calamares_bin_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_finishedq_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_keyboardq_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_notesqml_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_oemid_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_locale_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_keyboard_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_license_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_netinstall_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_summary_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_localeq_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_packagechooser_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_partition_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_users_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_usersq_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_welcome_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_welcomeq_autogen_timestamp_deps
+[ 57%] Built target calamares_viewmodule_license_autogen
+[ 57%] Built target calamares_viewmodule_oemid_autogen
+[ 57%] Built target calamares_viewmodule_finished_autogen
+[ 57%] Built target calamares_viewmodule_keyboardq_autogen
+[ 58%] Built target calamares_bin_autogen
+[ 59%] Built target calamares_viewmodule_finishedq_autogen
+[ 59%] Built target calamares_viewmodule_notesqml_autogen
+[ 59%] Built target calamares_viewmodule_netinstall_autogen
+[ 59%] Built target calamares_viewmodule_keyboard_autogen
+[ 59%] Built target calamares_viewmodule_locale_autogen
+[ 61%] Built target calamares_viewmodule_packagechooserq
+[ 63%] Built target calamares_viewmodule_summaryq
+[ 63%] Built target calamares_viewmodule_summary_autogen
+[ 63%] Built target calamares_viewmodule_users_autogen
+[ 63%] Built target calamares_viewmodule_packagechooser_autogen
+[ 63%] Built target calamares_viewmodule_partition_autogen
+[ 64%] Built target calamares_viewmodule_usersq_autogen
+[ 64%] Built target calamares_viewmodule_welcomeq_autogen
+[ 64%] Built target calamares_viewmodule_welcome_autogen
+[ 64%] Built target calamares_viewmodule_localeq_autogen
+[ 65%] Built target calamares_viewmodule_notesqml
+[ 66%] Built target calamares_viewmodule_oemid
+[ 67%] Built target calamares_viewmodule_finished
+[ 68%] Built target calamares_viewmodule_license
+[ 70%] Built target calamares_viewmodule_keyboardq
+[ 71%] Built target calamares_viewmodule_finishedq
+[ 72%] Built target calamares_viewmodule_summary
+[ 73%] Built target calamares_viewmodule_users
+[ 75%] Built target calamares_viewmodule_netinstall
+[ 77%] Built target calamares_viewmodule_keyboard
+[ 79%] Built target calamares_bin
+[ 82%] Built target calamares_viewmodule_locale
+[ 83%] Built target calamares_viewmodule_usersq
+[ 85%] Built target calamares_viewmodule_packagechooser
+[ 87%] Built target calamares_viewmodule_welcome
+[ 89%] Built target calamares_viewmodule_welcomeq
+[ 91%] Built target calamares_viewmodule_localeq
+[100%] Built target calamares_viewmodule_partition
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ar/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/as/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ast/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/az/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/az_AZ/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/be/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/bg/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/bn/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ca/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ca@valencia/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/cs_CZ/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/da/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/de/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/el/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/en_GB/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/eo/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/es/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/es_AR/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/es_MX/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/et/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/eu/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/fa/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/fi_FI/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/fr/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/fur/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/gl/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/he/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/hi/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/hr/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/hu/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/id/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/is/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/it_IT/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ja/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ka/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ko/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/lt/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ml/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/mr/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/nb/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/nl/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/oc/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/pl/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/pt_BR/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/pt_PT/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ro/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/ru/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/si/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sk/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sl/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sq/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sr/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sr@latin/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/sv/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/tg/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/th/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/tr_TR/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/uk/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/vi/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/zh_CN/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/share/locale/zh_TW/LC_MESSAGES/calamares-python.mo
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamares.so.3.3.5
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamares.so.3.3
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamares.so
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/CalamaresConfig.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/CalamaresVersion.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/CalamaresAbout.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/CppJob.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/DllMacro.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/GlobalStorage.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/Job.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/JobExample.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/JobQueue.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/ProcessJob.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/PythonHelper.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/PythonJob.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/PythonJobApi.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/Settings.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/GeoIPFixed.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/GeoIPJSON.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/GeoIPTests.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/GeoIPXML.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/Handler.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/geoip/Interface.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/Global.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/Lookup.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/TimeZone.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/TranslatableConfiguration.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/TranslatableString.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/Translation.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/locale/TranslationsModel.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Actions.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Config.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Descriptor.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/InstanceKey.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Module.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Preset.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/Requirement.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/RequirementsChecker.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/RequirementsModel.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/network/Manager.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/network/Tests.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/AutoMount.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/FileSystem.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/Global.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/KPMHelper.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/KPMManager.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/Mount.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/PartitionIterator.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/PartitionQuery.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/PartitionSize.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/partition/Sync.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/BoostPython.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/CommandList.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Dirs.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Entropy.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Logger.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/NamedEnum.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/NamedSuffix.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Permissions.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/PluginFactory.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/RAII.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Retranslator.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Runner.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/String.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/StringExpander.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/System.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Traits.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/UMask.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Units.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Variant.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Yaml.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/moc-warnings.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/compat/Mutex.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/compat/Variant.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/packages/Globals.h
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamaresui.so.3.3.5
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamaresui.so.3.3
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/libcalamaresui.so.3.3.5" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/libcalamaresui.so
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/Branding.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/ViewManager.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/CppJobModule.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/ModuleFactory.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/ModuleManager.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/ProcessJobModule.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/PythonJobModule.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/modulesystem/ViewModule.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Gui.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/ImageRegistry.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Paste.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/Qml.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/utils/QtCompat.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/viewpages/BlankViewStep.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/viewpages/ExecutionViewStep.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/viewpages/QmlViewStep.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/viewpages/Slideshow.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/viewpages/ViewStep.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/ClickableLabel.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/ErrorDialog.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/FixedAspectRatioLabel.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/LogWidget.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/PrettyRadioButton.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/TranslationFix.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/WaitingWidget.h
+-- Installing: /build/calamares/pkg/calamares/usr/include/libcalamares/widgets/waitingspinnerwidget.h
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/BackButton.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/ForwardButton.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/NavButton.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/Presentation.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/Slide.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/qmldir
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/qml/calamares/slideshow/qmldir.license
+-- Installing: /build/calamares/pkg/calamares/usr/bin/calamares
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/bin/calamares" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/share/icons/hicolor/scalable/apps/calamares.svg
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/bootloader/bootloader.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/bootloader/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/bootloader/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/bootloader/test.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/bootloader.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/contextualprocess/libcalamares_job_contextualprocess.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/contextualprocess/libcalamares_job_contextualprocess.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/contextualprocess/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/contextualprocess.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/displaymanager/displaymanager.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/displaymanager/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/displaymanager/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/displaymanager.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/finished/libcalamares_viewmodule_finished.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/finished/libcalamares_viewmodule_finished.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/finished/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/finished.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/finishedq/libcalamares_viewmodule_finishedq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/finishedq/libcalamares_viewmodule_finishedq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/finishedq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/finishedq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fsresizer/libcalamares_job_fsresizer.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/fsresizer/libcalamares_job_fsresizer.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fsresizer/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/fsresizer.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fstab/fstab.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fstab/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fstab/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fstab/test.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/fstab/test2.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/fstab.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/grubcfg/grubcfg.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/grubcfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/grubcfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/grubcfg.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/hostinfo/libcalamares_job_hostinfo.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/hostinfo/libcalamares_job_hostinfo.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/hostinfo/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/hwclock/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/hwclock/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpio/libcalamares_job_initcpio.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpio/libcalamares_job_initcpio.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpio/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/initcpio.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpiocfg/initcpiocfg.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpiocfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/initcpiocfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/initcpiocfg.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboard/libcalamares_viewmodule_keyboard.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboard/libcalamares_viewmodule_keyboard.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboard/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/keyboard.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboardq/libcalamares_viewmodule_keyboardq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboardq/libcalamares_viewmodule_keyboardq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/keyboardq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/keyboardq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/license/libcalamares_viewmodule_license.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/license/libcalamares_viewmodule_license.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/license/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/license.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/locale/libcalamares_viewmodule_locale.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/locale/libcalamares_viewmodule_locale.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/locale/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/locale.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/localecfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/localecfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/localeq/libcalamares_viewmodule_localeq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/localeq/libcalamares_viewmodule_localeq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/localeq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/localeq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/luksbootkeyfile/libcalamares_job_luksbootkeyfile.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/luksbootkeyfile/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/luksbootkeyfile.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/luksopenswaphookcfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/luksopenswaphookcfg.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/machineid/libcalamares_job_machineid.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/machineid/libcalamares_job_machineid.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/machineid/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/machineid.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/mkinitfs/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/mkinitfs/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/mount/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/mount/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/mount/mount.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/mount.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/netinstall/libcalamares_viewmodule_netinstall.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/netinstall/libcalamares_viewmodule_netinstall.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/netinstall/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/netinstall.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/networkcfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/networkcfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/notesqml/libcalamares_viewmodule_notesqml.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/notesqml/libcalamares_viewmodule_notesqml.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/notesqml/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/notesqml.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/oemid/libcalamares_viewmodule_oemid.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/oemid/libcalamares_viewmodule_oemid.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/oemid/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/oemid.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/openrcdmcryptcfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/openrcdmcryptcfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/openrcdmcryptcfg.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooser/libcalamares_viewmodule_packagechooser.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooser/libcalamares_viewmodule_packagechooser.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooser/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/packagechooser.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooserq/libcalamares_viewmodule_packagechooserq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooserq/libcalamares_viewmodule_packagechooserq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packagechooserq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/packagechooserq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packages/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packages/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/packages/packages.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/packages.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/partition/libcalamares_viewmodule_partition.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/partition/libcalamares_viewmodule_partition.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/partition/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/partition.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/plymouthcfg/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/plymouthcfg/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/plymouthcfg/plymouthcfg.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/plymouthcfg.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/preservefiles/libcalamares_job_preservefiles.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/preservefiles/libcalamares_job_preservefiles.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/preservefiles/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/preservefiles.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/rawfs/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/rawfs/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/rawfs.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/removeuser/libcalamares_job_removeuser.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/removeuser/libcalamares_job_removeuser.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/removeuser/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/removeuser.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/services-systemd/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/services-systemd/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/services-systemd/services-systemd.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/services-systemd.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/shellprocess/libcalamares_job_shellprocess.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/shellprocess/libcalamares_job_shellprocess.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/shellprocess/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/shellprocess.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/summary/libcalamares_viewmodule_summary.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/summary/libcalamares_viewmodule_summary.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/summary/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/summaryq/libcalamares_viewmodule_summaryq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/summaryq/libcalamares_viewmodule_summaryq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/summaryq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/umount/libcalamares_job_umount.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/umount/libcalamares_job_umount.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/umount/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/umount.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/unpackfs/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/unpackfs/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/unpackfs/runtests.sh
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/unpackfs/unpackfs.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/unpackfs.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/users/libcalamares_viewmodule_users.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/users/libcalamares_viewmodule_users.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/users/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/users.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/usersq/libcalamares_viewmodule_usersq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/usersq/libcalamares_viewmodule_usersq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/usersq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/usersq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/welcome/libcalamares_viewmodule_welcome.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/welcome/libcalamares_viewmodule_welcome.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/welcome/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/welcome.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/welcomeq/libcalamares_viewmodule_welcomeq.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/welcomeq/libcalamares_viewmodule_welcomeq.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/welcomeq/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/welcomeq.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/zfs/libcalamares_job_zfs.so
+-- Set non-toolchain portion of runtime path of "/build/calamares/pkg/calamares/usr/lib/calamares/modules/zfs/libcalamares_job_zfs.so" to ""
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/zfs/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/modules/zfs.conf
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/zfshostid/main.py
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/zfshostid/module.desc
+-- Installing: /build/calamares/pkg/calamares/usr/lib/calamares/modules/zfshostid/zfshostid.schema.yaml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/banner.png
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/banner.png.license
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/branding.desc
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/languages.png
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/languages.png.license
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/show.qml
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/squid.png
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/squid.png.license
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/stylesheet.qss
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/lang/calamares-default_ar.qm
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/lang/calamares-default_en.qm
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/lang/calamares-default_eo.qm
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/lang/calamares-default_fr.qm
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/branding/default/lang/calamares-default_nl.qm
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresTargets.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresTargets-release.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresConfig.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresConfigVersion.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddBrandingSubdirectory.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddLibrary.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddModuleSubdirectory.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddPlugin.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddTest.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAddTranslations.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresAutomoc.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CalamaresCheckModuleSelection.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/CMakeColors.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/lib/cmake/Calamares/FindYAMLCPP.cmake
+-- Installing: /build/calamares/pkg/calamares/usr/share/polkit-1/actions/com.github.calamares.calamares.policy
+-- Installing: /build/calamares/pkg/calamares/usr/share/applications/calamares.desktop
+-- Installing: /build/calamares/pkg/calamares/usr/share/man/man8/calamares.8
+-- Installing: /build/calamares/pkg/calamares/usr/share/calamares/settings.conf
