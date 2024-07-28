@@ -47,5 +47,6 @@ package() {
   ./install.sh \
     --dest "${pkgdir}/usr/share/themes" \
     --icon arch \
+    --tweaks image square round \
     --libadwaita 
 }
