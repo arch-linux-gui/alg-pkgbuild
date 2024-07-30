@@ -1,3 +1,3 @@
 rm -rvf pkg/
 rm -rvf src/
-rm -rvf qogir*
+rm -rvf alg-qogir*
