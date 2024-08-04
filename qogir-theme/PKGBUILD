@@ -2,7 +2,7 @@
 # Project: ALG
 
 pkgname=alg-qogir-theme
-pkgver=24.07
+pkgver=24.08
 pkgrel=1
 pkgdesc='Qogir Theme for ALG'
 arch=('x86_64')
