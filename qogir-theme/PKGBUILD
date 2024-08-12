@@ -1,0 +1,30 @@
+# Maintainer: Akash6222
+# Project: ALG
+
+pkgname=alg-qogir-theme
+pkgver=24.08
+pkgrel=1
+pkgdesc='Qogir Theme for ALG'
+arch=('x86_64')
+url='https://github.com/arch-linux-gui/alg-qogir-theme'
+license=('GPL3')
+depends=('gtk3' 'gtk4' 'gtk-engine-murrine' 'gtk-engines')
+makedepends=('git' 'sassc')
+optdepends=(
+  'qogir-icon-theme: Matching icon theme'
+)
+provides=('qogir-gtk-theme')
+conflicts=('qogir-gtk-theme')
+source=(${pkgname}::"git+${url}")
+sha256sums=('SKIP')
+package() {
+
+  #cd "$srcdir/$_pkgsrc"
+  cd "$srcdir/$pkgname"
+  install -dm755 "${pkgdir}/usr/share/themes"
+  
+  ./install.sh \
+    --dest "${pkgdir}/usr/share/themes" \
+    --icon arch \
+    --libadwaita 
+}
