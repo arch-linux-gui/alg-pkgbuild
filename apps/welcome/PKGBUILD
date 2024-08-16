@@ -1,7 +1,8 @@
- # Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+# Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+
 pkgname=alg-welcome
-pkgver=1.0.0
-pkgrel=2
+pkgver=1.2
+pkgrel=10
 destname="/usr/bin"
 pkgdesc="Welcome App For ALG"
 arch=('x86_64')
@@ -9,7 +10,14 @@ url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
 depends=('webkit2gtk')
 source=("$pkgname".tar.gz::"${url}"/releases/download/latest/"${pkgname}".tar.gz)
-sha256sums=('1f97afb4aff0a2691cd3b1eaf91880899f20f2b30985f2abba741175bfbe0d2c')
+sha256sums=('2b8e71fede51be4fef87d28dcd49d243e8b5aebdff0ec27e994af771359ed423')
+
+
+# prepare() {
+#   cd $pkgname
+#   go get
+#   wails build
+# }
 
 package() {
   tar -xf "$srcdir/"${pkgname}".tar.gz" -C "$pkgdir/"
