@@ -1,8 +1,8 @@
 # Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
 
 pkgname=alg-welcome
-pkgver=1.2
-pkgrel=11
+pkgver=1.3
+pkgrel=1
 destname="/usr/bin"
 pkgdesc="Welcome App For ALG"
 arch=('x86_64')
