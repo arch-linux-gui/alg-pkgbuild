@@ -1,0 +1,29 @@
+# Calamares Configuration Package for ALG
+# Maintainer: DemonKiller
+
+pkgname=alg-theme-cala-config
+destname="/etc/calamares"
+pkgver=24.04
+pkgrel=1
+pkgdesc="Calamares config for Arch Linux GUI Themed Editions"
+arch=('any')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${pkgname}#branch=devel")
+sha256sums=('SKIP')
+
+package() {
+	# Create the target directory
+	install -dm755 "${pkgdir}${destname}"
+
+	# Copy files from the repo (root structure) to /etc/calamares
+	cp -r "${srcdir}/${pkgname}"/* "${pkgdir}${destname}"
+
+	# Ensure proper permissions
+	chmod 755 "${pkgdir}${destname}/launch.sh"
+}
