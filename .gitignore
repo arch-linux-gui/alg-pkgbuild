@@ -4,3 +4,17 @@
 ./testing/alg-theme-cala-config/alg-*
 
 ./testing/calamares-3.3.5/calamares*
+
+# Ignore from cala-configs
+./cala-configs/alg-wm-cala-config/alg-wm-cala-config/objects/pack/*
+./cala-configs/alg-theme-cala-config/alg-theme-cala-config-24.04-1-any.pkg.tar.zst
+./cala-configs/alg-theme-cala-config/alg-theme-cala-config-24.04-1-x86_64-package.log
+
+# Ignore from calamares
+./calamares/calamares-3.2.26
+./calamares/calamares-3.2.39
+./calamares/calamares-3.2.47
+./calamares/calamares-3.2.62
+./calamares/calamares-3.3.5
+
+./calamares/calamares-3.3.6/calamares*
