@@ -1,0 +1,6 @@
+# Ignore from testing
+./testing/alg-theme-cala-config/pkg/
+./testing/alg-theme-cala-config/src/
+./testing/alg-theme-cala-config/alg-*
+
+./testing/calamares-3.3.5/calamares*
