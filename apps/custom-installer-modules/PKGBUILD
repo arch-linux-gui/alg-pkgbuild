@@ -1,7 +1,7 @@
 pkgname=custom-installer-modules
-destname="/etc/calamares"
+destname="/usr/lib/calamares"
 pkgver=0.1
-pkgrel=1
+pkgrel=5
 pkgdesc="Custom modules for Arch Linux GUI"
 arch=('any')
 url="https://github.com/arch-linux-gui"
@@ -18,7 +18,7 @@ package() {
 	# Create the target directory
 	install -dm755 "${pkgdir}${destname}"
 
-	# Copy the files from the source to the /etc/calamares directory
+	# Copy the files from the source to the /lib/calamares directory
 	cp -r "${srcdir}/${pkgname}"/* "${pkgdir}${destname}"
 
 	# Set the appropriate permissions for all files
