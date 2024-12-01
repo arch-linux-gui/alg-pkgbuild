@@ -18,7 +18,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/initcpio.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
-source=(${pkgname}::"git+${url}/${pkgname}#branch=dev")
+source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
 
 prepare() {
