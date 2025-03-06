@@ -23,7 +23,7 @@ package() {
 
   install -Dm644 "$srcdir/"${pkgname}"/frontend/src/assets/icon/appicon.png" "$pkgdir/usr/share/pixmaps/apm.png"
 
-  install -Dm755 "$srcdir/"${pkgname}"/PKGBUILD/apm.desktop" "$pkgdir/usr/share/applications/apm.desktop"
+  install -Dm755 "$srcdir/"${pkgname}"/assets/apm.desktop" "$pkgdir/usr/share/applications/apm.desktop"
 
   install -Dm755 "$srcdir/"${pkgname}"/build/bin/apm" "$pkgdir/usr/bin/apm"
 }
