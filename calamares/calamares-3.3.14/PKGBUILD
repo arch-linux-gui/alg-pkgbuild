@@ -1,8 +1,8 @@
-#Calamares PKGBUILD for Arka Linux GUI
+#Calamares PKGBUILD for ALG installer
 
 pkgname=calamares
 pkgver=3.3.14
-pkgrel=2
+pkgrel=3
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
@@ -30,10 +30,10 @@ prepare() {
 
 	# modify desktop file
 	sed -i -e 's#Exec=sh.*#Exec=sh -c "/etc/calamares/launch.sh"#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
-	sed -i -e 's#Name=.*#Name=Install Arka Linux#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
-	sed -i -e 's#GenericName=.*#GenericName=Arka Linux Installer#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
+	sed -i -e 's#Name=.*#Name=Install ALG#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
+	sed -i -e 's#GenericName=.*#GenericName=ALG Installer#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
 	sed -i -e 's#Icon=.*#Icon=archlinux-logo#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
-	sed -i -e 's#Comment=.*#Comment=Arka Linux Installer#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
+	sed -i -e 's#Comment=.*#Comment=ALG Installer#g' "$srcdir/${pkgname}-${pkgver}/calamares.desktop"
 
 
 	# patches here
