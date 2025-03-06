@@ -1,7 +1,7 @@
 pkgname=custom-installer-modules
 destname="/usr/lib/calamares"
-pkgver=0.1
-pkgrel=6
+pkgver=25.3
+pkgrel=1
 pkgdesc="Custom modules for Arch Linux GUI"
 arch=('any')
 url="https://github.com/arch-linux-gui"
