@@ -5,7 +5,7 @@ pkgver=25.3
 pkgrel=2
 pkgdesc="Welcome App For ALG (GTK Version)"
 arch=('x86_64')
-url="https://github.com/arch-linux-gui/alg-welcome#branch=2.0/gotk"
+url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
 depends=('gtk3' 'glib2' 'cairo')
 makedepends=('go' 'git')
