@@ -1,0 +1,19 @@
+# Maintainer: Harsh Upadhyay <amanupadhyay2004@gmail.com>
+
+pkgname=alg-fastfetch-config
+pkgver=25.3
+pkgrel=1
+pkgdesc="Fastfetch config For ALG"
+arch=('x86_64')
+url="https://github.com/arch-linux-gui/alg-fastfetch-config"
+license=('GPL3')
+depends=('gtk3' 'glib2' 'cairo')
+makedepends=('go' 'git')
+source=(${pkgname}::"git+${url}")
+sha256sums=('SKIP')
+destname="/etc"
+
+package() {
+  cp -r "$srcdir/"${pkgname}"/etc/" "$pkgdir/etc/"
+  install -Dm755 "$srcdir/"${pkgname}"/alg-ascii" "$pkgdir/usr/local/share/alg-ascii" 
+}
