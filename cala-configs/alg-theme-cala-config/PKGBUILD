@@ -2,7 +2,7 @@
 pkgname=alg-theme-cala-config
 destname="/etc"
 pkgver=25.03
-pkgrel=4
+pkgrel=5
 pkgdesc="Calamares config for Arch Linux GUI Themed Editions"
 arch=('any')
 url="https://github.com/arch-linux-gui"
