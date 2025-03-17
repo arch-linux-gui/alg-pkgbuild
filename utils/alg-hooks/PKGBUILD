@@ -2,7 +2,7 @@
 
 pkgname=alg-hooks
 pkgver=25.3
-pkgrel=1
+pkgrel=3
 pkgdesc="Package Installer For ALG"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-hooks"
