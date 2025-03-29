@@ -12,10 +12,11 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${pkgname}::"git+${url}/${pkgname}")
+source=(${pkgname}::"git+${url}/${pkgname}#branch=app-store")
 sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${destname}
 	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
     chmod 755 ${pkgdir}/etc/calamares/launch.sh
 }
+
