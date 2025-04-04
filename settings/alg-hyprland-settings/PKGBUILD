@@ -1,0 +1,28 @@
+# Maintainer: Akash6222
+pkgname=alg-hyprland-settings
+destname="/etc"
+pkgver=24.12
+pkgrel=1
+pkgdesc="Settings for Arch Linux GUI HYPRLAND Edition"
+arch=('x86_64')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+
+depends=('waybar' 'wlogout' 'rofi' 'wallust' 'swaync')
+
+optdepends=('yay: an AUR helper'
+            'fastfestch: screenfetch utility'
+            'cups: printing support'
+            'system-config-printer: CUPS status applet'
+            'blueman: bluetooth manager')
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+${url}/${pkgname}")
+sha256sums=('SKIP')
+
+package() {
+	install -dm755 ${pkgdir}${destname}
+	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+}
