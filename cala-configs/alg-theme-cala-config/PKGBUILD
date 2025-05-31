@@ -2,7 +2,7 @@
 pkgname=alg-theme-cala-config
 destname="/etc"
 pkgver=25.03
-pkgrel=5
+pkgrel=7
 pkgdesc="Calamares config for Arch Linux GUI Themed Editions"
 arch=('any')
 url="https://github.com/arch-linux-gui"
@@ -17,5 +17,6 @@ sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${destname}
 	cp -r ${srcdir}/${pkgname}${destname}/* ${pkgdir}${destname}
+	install -Dm644 "$srcdir/"${pkgname}"/etc/calamares/branding/arkalinuxgui/install.png" "$pkgdir/usr/share/pixmaps/install-alg.png"
     chmod 755 ${pkgdir}/etc/calamares/launch.sh
 }

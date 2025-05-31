@@ -1,7 +1,7 @@
 # Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
 
 pkgname=alg-app-store
-pkgver=25.3
+pkgver=25.4
 pkgrel=2
 destname="/usr/bin"
 pkgdesc="Package Installer For ALG"

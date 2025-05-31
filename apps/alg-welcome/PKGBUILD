@@ -1,8 +1,8 @@
 # Maintainer: Harsh Upadhyay <amanupadhyay2004@gmail.com>
 
 pkgname=alg-welcome
-pkgver=25.3
-pkgrel=2
+pkgver=25.4
+pkgrel=1
 pkgdesc="Welcome App For ALG (GTK Version)"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"

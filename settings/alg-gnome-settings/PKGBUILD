@@ -1,7 +1,7 @@
 # Maintainer: DemonKiller
 pkgname=alg-gnome-settings
 destname="/etc"
-pkgver=21.07
+pkgver=24.04
 pkgrel=1
 pkgdesc="Settings for Arch Linux GUI GNOME Edition"
 arch=('x86_64')

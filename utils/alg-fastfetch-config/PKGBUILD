@@ -2,7 +2,7 @@
 
 pkgname=alg-fastfetch-config
 pkgver=25.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Fastfetch config For ALG"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-fastfetch-config"
