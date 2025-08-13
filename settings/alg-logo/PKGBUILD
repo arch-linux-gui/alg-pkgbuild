@@ -1,0 +1,18 @@
+# Maintainer: Akash6222
+
+pkgname=alg-logo
+pkgver=25.08
+pkgrel=1
+pkgdesc="Alg logo"
+arch=('x86_64')
+url="https://github.com/arch-linux-gui"
+license=('GPL3')
+makedepends=('git')
+source=(${pkgname}::"git+${url}/artwork")
+sha256sums=('SKIP')
+
+package() {
+  cd "$pkgname"
+  install -Dm644 "logo/alg-logo.png" "$pkgdir/usr/share/pixmaps/alg-logo.png"
+  install -Dm644 "logo/alg-logo-blue.png" "$pkgdir/usr/share/pixmaps/alg-logo-blue.png"
+}
