@@ -1,4 +1,5 @@
-# Maintainer: DemonKiller
+# Maintainer: akash6222 <akashlinux0@gmail.com>
+
 pkgname=alg-plasma-settings
 destname="/etc"
 pkgver=25.10

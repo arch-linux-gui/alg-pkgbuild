@@ -1,4 +1,4 @@
-#Calamares PKGBUILD for ALG installer
+# Maintainer: akash6222 <akashlinux0@gmail.com>
 
 pkgname=calamares
 pkgver=3.3.14
