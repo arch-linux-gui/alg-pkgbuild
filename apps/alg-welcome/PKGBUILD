@@ -2,31 +2,25 @@
 
 pkgname=alg-welcome
 pkgver=25.10
-pkgrel=1
+pkgrel=3
 pkgdesc="Welcome App For ALG (GTK Version)"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
 depends=('gtk3' 'glib2' 'cairo')
 makedepends=('go' 'git')
-source=(${pkgname}::"git+${url}")
+source=(${pkgname}::"git+${url}#branch=pyside")
 sha256sums=('SKIP')
+options=('!strip' '!debug')
 
 prepare() {
   cd "$pkgname"
   mkdir -p build
-}
-
-build() {
-  cd "$pkgname"
-
-  go build -o build/welcome ./
+  nuitka --onefile --enable-plugin=pyside6 --include-data-dir=assets=assets --output-dir=build --output-filename=welcome --remove-output run.py
 }
 
 package() {
-  cd "$pkgname"
-
-  install -Dm755 "build/welcome" "$pkgdir/usr/bin/welcome"
-  install -Dm644 "assets/welcome.desktop" "$pkgdir/usr/share/applications/welcome.desktop"
-  install -Dm644 "assets/welcome.png" "$pkgdir/usr/share/pixmaps/welcome.png"
+  install -Dm755 "$srcdir/"${pkgname}"/build/welcome" "$pkgdir/usr/bin/welcome"
+  install -Dm644 "$srcdir/"${pkgname}"/assets/welcome.desktop" "$pkgdir/usr/share/applications/welcome.desktop"
+  install -Dm644 "$srcdir/"${pkgname}"/assets/welcome.png" "$pkgdir/usr/share/pixmaps/welcome.png"
 }
