@@ -1,7 +1,7 @@
 # Maintainer: akash6222 <akashlinux0@gmail.com>
 pkgname=alg-theme-cala-config
 destname="/etc"
-pkgver=25.06
+pkgver=25.10
 pkgrel=1
 pkgdesc="Calamares config for Arch Linux GUI Themed Editions"
 arch=('any')
