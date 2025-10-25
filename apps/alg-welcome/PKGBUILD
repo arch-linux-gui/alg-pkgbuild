@@ -1,22 +1,25 @@
 # Maintainer: akash6222 <akashlinux0@gmail.com>
 
 pkgname=alg-welcome
-pkgver=25.10
-pkgrel=4
+pkgver=2.1.8
+pkgrel=1
 pkgdesc="Welcome App For ALG (GTK Version)"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
-depends=('gtk3' 'glib2' 'cairo')
-makedepends=('go' 'git')
-source=(${pkgname}::"git+${url}#branch=pyside")
+depends=('python')
+source=(${pkgname}::"git+${url}")
 sha256sums=('SKIP')
 options=('!strip' '!debug')
 
 prepare() {
   cd "$pkgname"
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install nuitka pyside6
   mkdir -p build
   nuitka --onefile --enable-plugin=pyside6 --include-data-dir=assets=assets --output-dir=build --output-filename=welcome --remove-output run.py
+  deactivate
 }
 
 package() {
