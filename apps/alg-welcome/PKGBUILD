@@ -2,7 +2,7 @@
 
 pkgname=alg-welcome
 pkgver=25.10
-pkgrel=3
+pkgrel=4
 pkgdesc="Welcome App For ALG (GTK Version)"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
