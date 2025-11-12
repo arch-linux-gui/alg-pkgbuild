@@ -1,22 +1,49 @@
- # Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+# Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+# QT6/C++ Version
+
 pkgname=alg-welcome
-pkgver=1.0.0
-pkgrel=2
-destname="/usr/bin"
-pkgdesc="Welcome App For ALG"
+pkgver=2.1.11
+pkgrel=4
+pkgdesc="A fast, lightweight welcome application for ALG built with Qt6 and modern C++"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
-depends=('webkit2gtk')
-source=("$pkgname".tar.gz::"${url}"/releases/download/latest/"${pkgname}".tar.gz)
-sha256sums=('1f97afb4aff0a2691cd3b1eaf91880899f20f2b30985f2abba741175bfbe0d2c')
+depends=('qt6-base' 'reflector' 'pacman')
+makedepends=('cmake' 'gcc' 'make')
+optdepends=(
+    'calamares: For system installation (Live ISO)'
+    'alg-app-store: For launching the app store'
+)
+source=("$pkgname::git+https://github.com/arch-linux-gui/$pkgname.git#branch=3.0/qtc++")
+sha256sums=('SKIP')
+
+build() {
+    cd "$pkgname"
+    
+    cmake -B build \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_TESTS=OFF
+    
+    cmake --build build
+}
 
 package() {
-  tar -xf "$srcdir/"${pkgname}".tar.gz" -C "$pkgdir/"
-
-  install -Dm644 "$srcdir/"${pkgname}"/build/bin/welcome.png" "$pkgdir/usr/share/pixmaps/welcome.png"
-
-  install -Dm755 "$srcdir/"${pkgname}"/build/bin/welcome.desktop" "$pkgdir/usr/share/applications/welcome.desktop"
-
-  install -Dm755 "$srcdir/"${pkgname}"/build/bin/welcome" "$pkgdir/usr/bin/welcome"
+    cd "$pkgname"
+    
+    DESTDIR="$pkgdir" cmake --install build
+    
+    # Install assets
+    install -Dm644 assets/welcome.png "$pkgdir/usr/share/pixmaps/welcome.png"
+    install -Dm644 assets/github.svg "$pkgdir/usr/share/alg-welcome/assets/github.svg"
+    install -Dm644 assets/discord.svg "$pkgdir/usr/share/alg-welcome/assets/discord.svg"
+    
+    # Install stylesheet
+    install -Dm644 styles.qss "$pkgdir/usr/share/alg-welcome/styles.qss"
+    
+    # Install desktop file
+    install -Dm644 alg-welcome.desktop "$pkgdir/usr/share/applications/alg-welcome.desktop"
+    
+    # Install license
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
