@@ -8,7 +8,7 @@ pkgdesc='Qogir Theme for ALG'
 arch=('x86_64')
 url='https://github.com/arch-linux-gui/alg-qogir-theme'
 license=('GPL3')
-depends=('gtk3' 'gtk4' 'gtk-engine-murrine' 'gtk-engines')
+depends=('gtk3' 'gtk4')
 makedepends=('git' 'sassc')
 optdepends=(
   'qogir-icon-theme: Matching icon theme'
