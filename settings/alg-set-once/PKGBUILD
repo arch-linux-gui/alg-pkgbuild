@@ -1,0 +1,19 @@
+# Maintainer: akash6222 <akashlinux0@gmail.com>
+
+pkgname=alg-set-once
+pkgver=25.4
+pkgrel=2
+pkgdesc="Set Once For ALG"
+arch=('x86_64')
+url="https://github.com/arch-linux-gui/alg-set-once"
+license=('GPL3')
+depends=('gtk3' 'glib2' 'cairo')
+makedepends=('go' 'git')
+source=(${pkgname}::"git+${url}")
+sha256sums=('SKIP')
+
+package() {
+  cd "$pkgname"
+  install -Dm755 "alg_set_once.desktop" "$pkgdir/etc/skel/.config/autostart/alg_set_once.desktop"
+  install -Dm755 "alg_set_once.sh" "$pkgdir/etc/skel/.config/autostart/alg_set_once.sh"
+}
