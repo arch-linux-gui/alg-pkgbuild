@@ -10,7 +10,7 @@ url="https://github.com/arch-linux-gui"
 license=('GPL3')
 makedepends=('git')
 
-depends=('xfce4-terminal' 'thunar' 'firefox' 'xfce4-whiskermenu-plugin' 'tela-circle-icon' 'qogir-gtk-theme')
+depends=('xfce4-terminal' 'thunar' 'firefox' 'xfce4-whiskermenu-plugin' 'tela-circle-icon')
 
 optdepends=('paru: an AUR helper'
             'neofetch: screenfetch utility'
