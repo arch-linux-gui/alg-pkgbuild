@@ -25,7 +25,7 @@ optdepends=(
     'chaotic-keyring: Chaotic-AUR repository support'
     'chaotic-mirrorlist: Chaotic-AUR repository support'
 )
-source=("git+https://github.com/arch-linux-gui/alg-app-store.git#branch=qt6/c++")
+source=("git+https://github.com/arch-linux-gui/alg-app-store.git#branch=main")
 sha256sums=('SKIP')
 
 build() {
