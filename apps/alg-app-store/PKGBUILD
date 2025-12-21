@@ -2,8 +2,8 @@
 # Qt6/C++ Version
 
 pkgname=alg-app-store
-pkgver=0.2.25
-pkgrel=3
+pkgver=0.2.28
+pkgrel=1
 pkgdesc="A modern, native package manager for Arch Linux built with Qt6 and C++"
 arch=('x86_64' 'aarch64')
 url="https://github.com/arch-linux-gui/alg-app-store"
