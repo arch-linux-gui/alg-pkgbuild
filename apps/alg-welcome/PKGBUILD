@@ -2,8 +2,8 @@
 # QT6/C++ Version
 
 pkgname=alg-welcome
-pkgver=3.0.0
-pkgrel=1
+pkgver=3.1.2
+pkgrel=2
 pkgdesc="A fast, lightweight welcome application for ALG built with Qt6 and modern C++"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
@@ -14,7 +14,7 @@ optdepends=(
     'calamares: For system installation (Live ISO)'
     'alg-app-store: For launching the app store'
 )
-source=("$pkgname::git+https://github.com/arch-linux-gui/$pkgname.git#branch=main")
+source=("$pkgname::git+https://github.com/arch-linux-gui/$pkgname.git#branch=toggle-fix")
 sha256sums=('SKIP')
 
 build() {
