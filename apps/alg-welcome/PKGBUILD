@@ -14,7 +14,7 @@ optdepends=(
     'calamares: For system installation (Live ISO)'
     'alg-app-store: For launching the app store'
 )
-source=("$pkgname::git+https://github.com/arch-linux-gui/$pkgname.git#branch=main")
+source=(${pkgname}::"git+${url}")
 sha256sums=('SKIP')
 
 build() {
