@@ -1,29 +1,52 @@
-# Maintainer: akash6222 <akashlinux0@gmail.com>
+# Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+# QT6/C++ Version
 
 pkgname=alg-welcome
-pkgver=2.1.8
-pkgrel=1
-pkgdesc="Welcome App For ALG (GTK Version)"
+pkgver=3.1.4
+pkgrel=3
+pkgdesc="A fast, lightweight welcome application for ALG built with Qt6 and modern C++"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
 license=('GPL3')
-depends=('python')
+depends=('qt6-base' 'reflector' 'pacman')
+makedepends=('cmake' 'gcc' 'make')
+optdepends=(
+    'calamares: For system installation (Live ISO)'
+    'alg-app-store: For launching the app store'
+)
 source=(${pkgname}::"git+${url}")
 sha256sums=('SKIP')
-options=('!strip' '!debug')
 
-prepare() {
-  cd "$pkgname"
-  python3 -m venv .venv
-  source .venv/bin/activate
-  pip install nuitka pyside6
-  mkdir -p build
-  nuitka --onefile --enable-plugin=pyside6 --include-data-dir=assets=assets --output-dir=build --output-filename=welcome --remove-output run.py
-  deactivate
+build() {
+    cd "$pkgname"
+    
+    cmake -B build \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_TESTS=OFF
+    
+    cmake --build build
 }
 
 package() {
-  install -Dm755 "$srcdir/"${pkgname}"/build/welcome" "$pkgdir/usr/bin/welcome"
-  install -Dm644 "$srcdir/"${pkgname}"/assets/welcome.desktop" "$pkgdir/usr/share/applications/welcome.desktop"
-  install -Dm644 "$srcdir/"${pkgname}"/assets/welcome.png" "$pkgdir/usr/share/pixmaps/welcome.png"
+    cd "$pkgname"
+    
+    DESTDIR="$pkgdir" cmake --install build
+    
+    # Install assets
+    install -Dm644 assets/welcome.png "$pkgdir/usr/share/pixmaps/welcome.png"
+    install -Dm644 assets/github.svg "$pkgdir/usr/share/alg-welcome/assets/github.svg"
+    install -Dm644 assets/discord.svg "$pkgdir/usr/share/alg-welcome/assets/discord.svg"
+    install -Dm644 assets/switch_on.svg "$pkgdir/usr/share/alg-welcome/assets/switch_on.svg"
+    install -Dm644 assets/switch_off.svg "$pkgdir/usr/share/alg-welcome/assets/switch_off.svg"
+    
+    # Install stylesheet
+    install -Dm644 styles.qss "$pkgdir/usr/share/alg-welcome/styles.qss"
+    
+    # Install desktop file for app launcher and autostart
+    install -Dm644 alg-welcome.desktop "$pkgdir/usr/share/applications/alg-welcome.desktop"
+    install -Dm644 alg-welcome.desktop "$pkgdir/etc/xdg/autostart/alg-welcome.desktop"
+    
+    # Install license
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
