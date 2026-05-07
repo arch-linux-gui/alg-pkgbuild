@@ -2,7 +2,7 @@
 
 pkgname=calamares
 pkgver=3.4.0
-pkgrel=3
+pkgrel=6
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
@@ -18,9 +18,8 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/initcpio.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
-source=(${pkgname}::"git+${url}/${pkgname}#branch=codeberg"
-	"https://gitlab.com/garuda-linux/pkgbuilds/-/raw/main/calamares-garuda/0001-bootloader-Correct-a-logic-error-preventing-installa.patch")
-sha256sums=('SKIP' 'SKIP')
+source=(${pkgname}::"git+${url}/${pkgname}#branch=codeberg")
+sha256sums=('SKIP')
 
 prepare() {
 	mkdir calamares-${pkgver}
@@ -28,7 +27,7 @@ prepare() {
 	cd ${srcdir}/calamares-${pkgver}
 
 	# Apply patch
-    patch -Np1 -i "${srcdir}/0001-bootloader-Correct-a-logic-error-preventing-installa.patch"
+    #patch -Np1 -i "${srcdir}/0001-bootloader-Correct-a-logic-error-preventing-installa.patch"
 
 	sed -i -e 's/"Install configuration files" OFF/"Install configuration files" ON/' CMakeLists.txt
 	sed -i -e 's/# DEBUG_FILESYSTEMS/DEBUG_FILESYSTEMS/' "$srcdir/${pkgname}-${pkgver}/CMakeLists.txt"
