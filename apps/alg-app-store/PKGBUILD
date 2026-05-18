@@ -1,29 +1,71 @@
-# Maintainer: akash6222 <akashlinux0@gmail.com>
+#!/bin/bash
+# Maintainer: Harsh Upadhyay amanupadhyay2004@gmail.com
+# Qt6/C++ Version
 
 pkgname=alg-app-store
-pkgver=25.10
-pkgrel=1
-destname="/usr/bin"
-pkgdesc="Package Installer For ALG"
-arch=('x86_64')
+pkgver=0.3.2
+pkgrel=6
+pkgdesc="A modern, native package manager for Arch Linux built with Qt6 and C++"
+arch=('x86_64' 'aarch64')
 url="https://github.com/arch-linux-gui/alg-app-store"
-license=('GPL3')
-depends=('webkit2gtk' 'go' 'nodejs' 'npm')
-source=(${pkgname}::"git+${url}")
+license=('MIT')
+depends=(
+    'qt6-base'
+    'qt6-svg'
+    'pacman'
+    'polkit'
+)
+makedepends=(
+    'cmake'
+    'base-devel'
+    'pkgconf'
+)
+optdepends=(
+    'yay: AUR helper support'
+    'paru: Alternative AUR helper support'
+    'chaotic-keyring: Chaotic-AUR repository support'
+    'chaotic-mirrorlist: Chaotic-AUR repository support'
+)
+source=("git+https://github.com/arch-linux-gui/alg-app-store.git#branch=devel")
 sha256sums=('SKIP')
 
-prepare() {
-   cd $pkgname
-   go get
-   go install github.com/wailsapp/wails/v2/cmd/wails@latest
-   ~/go/bin/wails build
+build() {
+    cd "$pkgname"
+    
+    # Create build directory
+    mkdir -p build
+    cd build
+    
+    # Configure with CMake
+    cmake .. \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_TESTS=OFF
+    
+    # Build
+    make -j$(nproc)
 }
 
 package() {
-
-  install -Dm644 "$srcdir/"${pkgname}"/assets/alg-app-store.png" "$pkgdir/usr/share/pixmaps/alg-app-store.png"
-
-  install -Dm755 "$srcdir/"${pkgname}"/assets/alg-app-store.desktop" "$pkgdir/usr/share/applications/alg-app-store.desktop"
-
-  install -Dm755 "$srcdir/"${pkgname}"/build/bin/alg-app-store" "$pkgdir/usr/bin/alg-app-store"
+    cd "$pkgname/build"
+    
+    # Install binary
+    install -Dm755 alg-app-store "$pkgdir/usr/bin/alg-app-store"
+    
+    # Install desktop file
+    install -Dm644 ../assets/alg-app-store.desktop "$pkgdir/usr/share/applications/alg-app-store.desktop"
+    
+    # Install icon
+    install -Dm644 ../assets/alg-app-store.png "$pkgdir/usr/share/pixmaps/alg-app-store.png"
+    
+    # Install stylesheet
+    install -Dm644 stylesheet.qss "$pkgdir/usr/share/alg-app-store/stylesheet.qss"
+    
+    # Install license (if exists)
+    if [ -f ../LICENSE ]; then
+        install -Dm644 ../LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    fi
+    
+    # Install documentation
+    install -Dm644 ../README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
 }
