@@ -3,7 +3,7 @@
 
 pkgname=alg-welcome
 pkgver=3.1.4
-pkgrel=3
+pkgrel=7
 pkgdesc="A fast, lightweight welcome application for ALG built with Qt6 and modern C++"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-welcome"
