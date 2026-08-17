@@ -1,8 +1,8 @@
 # Maintainer: akash6222 <akashlinux0@gmail.com>
 
 pkgname=alg-set-once
-pkgver=25.4
-pkgrel=2
+pkgver=26.8
+pkgrel=1
 pkgdesc="Set Once For ALG"
 arch=('x86_64')
 url="https://github.com/arch-linux-gui/alg-set-once"
